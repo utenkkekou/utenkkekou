@@ -86,9 +86,3 @@ I build across AI, vision and the web — turning small experiments into useful 
 - **Edge AI & accessibility** — 探索视觉与语音在辅助设备上的实际应用。
 - **Creative interfaces** — AI 内容创作、3D 可视化与跨平台交互。
 
----
-
-<p align="center">
-  <sub>BUILD WITH CURIOSITY. MAKE IT USEFUL.</sub><br />
-  <sub>保持好奇，把东西做出来。</sub>
-</p>
