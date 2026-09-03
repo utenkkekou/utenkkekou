@@ -31,6 +31,18 @@
 <table>
   <tr>
     <td width="50%" valign="top">
+      <h3><a href="https://github.com/utenkkekou/core-nexus-ai">Core Nexus AI ↗</a></h3>
+      <p>多模态 AI 推理网关，统一模型适配、流式响应、鉴权与任务编排，提供离线演示。</p>
+      <p><sub>Python · FastAPI · 多模态 AI</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/utenkkekou/PTL-Detect">PTL-Detect ↗</a></h3>
+      <p>行人红绿灯视觉工具链，覆盖图片标注、数据复核、YOLO 训练与误判分析。</p>
+      <p><sub>Python · YOLO · 计算机视觉</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3><a href="https://github.com/utenkkekou/Quick-Annotation">Quick Annotation ↗</a></h3>
       <p>交通信号灯图片预标注与人工审核工具，连接视觉 API，在浏览器中完成逐张审核。</p>
       <p><sub>Python · 视觉模型 · 数据标注</sub></p>

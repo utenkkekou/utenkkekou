@@ -31,6 +31,18 @@ My project work spans multimodal inference, computer vision, business applicatio
 <table>
   <tr>
     <td width="50%" valign="top">
+      <h3><a href="https://github.com/utenkkekou/core-nexus-ai">Core Nexus AI ↗</a></h3>
+      <p>A multimodal inference gateway with model adapters, streaming, authentication and task orchestration, plus an offline demo.</p>
+      <p><sub>Python · FastAPI · Multimodal AI</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/utenkkekou/PTL-Detect">PTL-Detect ↗</a></h3>
+      <p>A pedestrian traffic-light toolkit for annotation, data review, YOLO training and error analysis.</p>
+      <p><sub>Python · YOLO · Computer vision</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3><a href="https://github.com/utenkkekou/Quick-Annotation">Quick Annotation ↗</a></h3>
       <p>Traffic-light image pre-annotation and human review, with a vision API and a browser-based review workflow.</p>
       <p><sub>Python · Vision models · Annotation</sub></p>

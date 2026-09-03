@@ -31,6 +31,18 @@
 <table>
   <tr>
     <td width="50%" valign="top">
+      <h3><a href="https://github.com/utenkkekou/core-nexus-ai">Core Nexus AI ↗</a></h3>
+      <p>モデル接続、ストリーミング、認証、タスク処理を統合するマルチモーダル推論ゲートウェイ。オフラインデモを同梱。</p>
+      <p><sub>Python · FastAPI · マルチモーダル AI</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/utenkkekou/PTL-Detect">PTL-Detect ↗</a></h3>
+      <p>歩行者用信号機の画像アノテーション、データレビュー、YOLO の学習・誤認識分析を支援するツール群。</p>
+      <p><sub>Python · YOLO · 画像認識</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3><a href="https://github.com/utenkkekou/Quick-Annotation">Quick Annotation ↗</a></h3>
       <p>信号機画像の事前アノテーションと人手レビューを支援。画像認識 API とブラウザ上のレビュー画面を連携します。</p>
       <p><sub>Python · 画像認識 · アノテーション</sub></p>
