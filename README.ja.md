@@ -36,18 +36,6 @@
       <p><sub>Python · 画像認識 · アノテーション</sub></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/utenkkekou/AI-">AI ショートドラマ制作 ↗</a></h3>
-      <p>オリジナル作品の制作に向けて、AI によるショートドラマ生成を試すアプリのプロトタイプです。</p>
-      <p><sub>TypeScript · 生成 AI</sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/utenkkekou/3D-">3D 力学ビジュアライゼーション ↗</a></h3>
-      <p>力学的な関係を三次元空間で表現し、直感的な操作と表示を試すプロジェクトです。</p>
-      <p><sub>3D · 可視化 · インタラクション</sub></p>
-    </td>
-    <td width="50%" valign="top">
       <h3>AI スマートグラス</h3>
       <p>視覚障害のある方を支援するシステムを開発中。視覚認識、音声対話、モバイルアプリを連携します。</p>
       <p><sub>画像認識 · 音声 · アクセシビリティ</sub></p>

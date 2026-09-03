@@ -36,18 +36,6 @@
       <p><sub>Python · 视觉模型 · 数据标注</sub></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/utenkkekou/AI-">AI 短剧创作 ↗</a></h3>
-      <p>探索 AI 辅助短剧生成，为原创 IP 创作构建应用原型。</p>
-      <p><sub>TypeScript · 生成式 AI</sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/utenkkekou/3D-">3D 力学图 ↗</a></h3>
-      <p>用三维可视化表达力学关系，探索直观的交互与展示方式。</p>
-      <p><sub>3D · 可视化 · 交互实验</sub></p>
-    </td>
-    <td width="50%" valign="top">
       <h3>AI 智能眼镜</h3>
       <p>正在开发面向视障用户的辅助系统，连接视觉感知、语音交互与移动端。</p>
       <p><sub>计算机视觉 · 语音 · 无障碍</sub></p>

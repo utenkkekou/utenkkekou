@@ -36,18 +36,6 @@ My project work spans multimodal inference, computer vision, business applicatio
       <p><sub>Python · Vision models · Annotation</sub></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/utenkkekou/AI-">AI Short-Drama Studio ↗</a></h3>
-      <p>An application prototype exploring AI-assisted short-drama generation for original creative projects.</p>
-      <p><sub>TypeScript · Generative AI</sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/utenkkekou/3D-">3D Mechanics ↗</a></h3>
-      <p>Experiments in visualizing mechanical relationships through interactive three-dimensional scenes.</p>
-      <p><sub>3D · Visualization · Interaction</sub></p>
-    </td>
-    <td width="50%" valign="top">
       <h3>AI Smart Glasses</h3>
       <p>An assistive system in development for people with visual impairments, connecting visual perception, voice interaction and mobile apps.</p>
       <p><sub>Computer vision · Voice · Accessibility</sub></p>
