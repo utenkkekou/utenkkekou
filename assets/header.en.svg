@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" fill="none" role="img" aria-labelledby="title desc">
-  <title id="title">lynn / utenkkekou — AI 系统、全栈应用、计算机视觉、多模态与智能设备</title>
-  <desc id="desc">lynn / utenkkekou — AI 系统、全栈应用、计算机视觉、多模态与智能设备</desc>
+  <title id="title">lynn / utenkkekou — AI systems, full-stack apps, vision, multimodal AI and connected devices</title>
+  <desc id="desc">lynn / utenkkekou — AI systems, full-stack apps, vision, multimodal AI and connected devices</desc>
   <defs>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
       <circle cx="1" cy="1" r="1" fill="#8CC9B4" opacity=".12" />
@@ -14,10 +14,10 @@
   <rect x="760" y="0" width="520" height="400" rx="12" fill="url(#fade)" />
   <rect width="1280" height="400" rx="12" fill="url(#grid)" />
   <path d="M48 40H72" stroke="#A2E8C5" stroke-width="4" />
-  <text x="88" y="46" fill="#C7DCD2" font-family="Consolas, 'Microsoft YaHei', 'Yu Gothic', sans-serif" font-size="17" letter-spacing="2.4">LYNN / UTENKKEKOU</text>
-  <text x="48" y="153" fill="#F4F4E9" font-family="'Microsoft YaHei', 'Yu Gothic', 'Noto Sans CJK JP', sans-serif" font-weight="bold" font-size="76" letter-spacing="-2.5">AI 系统</text>
-  <text x="48" y="242" fill="#A2E8C5" font-family="'Microsoft YaHei', 'Yu Gothic', 'Noto Sans CJK JP', sans-serif" font-weight="bold" font-size="76" letter-spacing="-2.5">全栈应用</text>
-  <text x="52" y="300" fill="#C7DCD2" font-family="Consolas, 'Microsoft YaHei', 'Yu Gothic', sans-serif" font-size="18">计算机视觉 / 多模态 / 智能设备</text>
+  <text x="88" y="46" fill="#C7DCD2" font-family="Consolas, 'Liberation Mono', monospace" font-size="17" letter-spacing="2.4">LYNN / UTENKKEKOU</text>
+  <text x="48" y="153" fill="#F4F4E9" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="76" letter-spacing="-2.5">AI systems.</text>
+  <text x="48" y="242" fill="#A2E8C5" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="76" letter-spacing="-2.5">Full-stack apps.</text>
+  <text x="52" y="300" fill="#C7DCD2" font-family="Consolas, 'Liberation Mono', monospace" font-size="18">VISION / MULTIMODAL / CONNECTED DEVICES</text>
   <g stroke="#587F6E">
     <circle cx="1020" cy="200" r="144" stroke-dasharray="3 9" />
     <circle cx="1020" cy="200" r="107" opacity=".6" />
@@ -32,10 +32,10 @@
   <circle cx="1020" cy="72" r="7" fill="#EFC17C" />
   <circle cx="1131" cy="264" r="7" fill="#A2E8C5" />
   <circle cx="909" cy="264" r="7" fill="#A2E8C5" />
-  <g fill="#C7DCD2" font-family="Consolas, 'Microsoft YaHei', 'Yu Gothic', sans-serif" font-size="12" letter-spacing="1.4">
-    <text x="1052" y="68">智能</text>
-    <text x="844" y="292">视觉</text>
-    <text x="1094" y="292">交互</text>
+  <g fill="#C7DCD2" font-family="Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.4">
+    <text x="1052" y="68">INTELLIGENCE</text>
+    <text x="844" y="292">VISION</text>
+    <text x="1094" y="292">INTERACTION</text>
   </g>
   <path d="M798 30H814M798 30V46M1232 30H1248M1248 30V46M798 354V370H814M1232 370H1248V354" stroke="#A2E8C5" stroke-opacity=".6" />
 </svg>

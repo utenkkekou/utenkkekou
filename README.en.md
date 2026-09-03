@@ -1,63 +1,63 @@
-<p align="center"><strong>中文</strong> &nbsp; / &nbsp; <a href="https://github.com/utenkkekou/utenkkekou/blob/main/README.en.md">English</a> &nbsp; / &nbsp; <a href="https://github.com/utenkkekou/utenkkekou/blob/main/README.ja.md">日本語</a></p>
+<p align="center"><a href="https://github.com/utenkkekou">中文</a> &nbsp; / &nbsp; <strong>English</strong> &nbsp; / &nbsp; <a href="https://github.com/utenkkekou/utenkkekou/blob/main/README.ja.md">日本語</a></p>
 
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="lynn / utenkkekou — AI 系统、全栈应用、计算机视觉、多模态与智能设备" />
+  <img src="./assets/header.en.svg" width="100%" alt="lynn / utenkkekou — AI systems, full-stack apps, vision, multimodal AI and connected devices" />
 </p>
 
-## 你好，我是 lynn
+## Hi, I'm lynn
 
-**AI 应用 · 计算机视觉 · 全栈与移动端开发**
+**AI applications · Computer vision · Full-stack & mobile development**
 
-项目实践覆盖多模态推理、视觉模型、业务管理系统、移动应用与智能设备，也在开发数据处理和 3D 交互工具。
+My project work spans multimodal inference, computer vision, business applications, mobile apps and connected devices, alongside data-processing and interactive 3D tools.
 
 [![GitHub](https://img.shields.io/badge/GitHub-utenkkekou-172A29?style=flat-square&logo=github&logoColor=9FE7C4)](https://github.com/utenkkekou)
 
 ---
 
-### 01 / 能力范围
+### 01 / Capabilities
 
-| 方向 | 项目实践 |
+| Area | Project experience |
 | --- | --- |
-| **AI 系统与多模态** | 统一推理 API、多模型接入、文本／图像／语音／视频处理、流式响应、工具调用与工作流编排。 |
-| **计算机视觉** | 图片预标注与人工审核、YOLO 训练与评估、目标检测与分割、ONNX 推理及 Core ML 端侧集成。 |
-| **全栈业务应用** | Web 管理后台、API 服务、角色权限、租户隔离、文件与媒体资产管理。 |
-| **移动端与设备联动** | Flutter、React Native 与原生 iOS 开发；相机、定位、BLE 接入及 H.264 视频与实时音频通信。 |
-| **数据处理与报表** | 结构化数据建模、CSV／Excel 导入清洗、业务报表生成、文档上传与处理。 |
-| **可视化与交互** | Three.js 场景、户型与空间可视化、图表大屏、可视化工作流和内容创作界面。 |
-| **工程交付** | Docker 部署、数据库迁移、异步任务、WebSocket 通信、监控指标与自动化测试。 |
+| **AI & multimodal systems** | Unified inference APIs, model integration, text/image/speech/video processing, streaming responses, tool calling and workflow orchestration. |
+| **Computer vision** | Image pre-annotation and human review, YOLO training and evaluation, detection and segmentation, ONNX inference and on-device Core ML integration. |
+| **Full-stack applications** | Web dashboards, API services, role-based access, tenant isolation, and file and media asset management. |
+| **Mobile & connected devices** | Flutter, React Native and native iOS development; camera, location and BLE integration, plus H.264 video and real-time audio communication. |
+| **Data processing & reporting** | Structured data modeling, CSV/Excel import and cleaning, business report generation, and document upload and processing. |
+| **Visualization & interaction** | Three.js scenes, floor-plan and spatial visualization, data dashboards, visual workflows and content-creation interfaces. |
+| **Engineering & delivery** | Docker deployment, database migrations, asynchronous jobs, WebSocket communication, monitoring metrics and automated tests. |
 
-### 02 / 精选项目
+### 02 / Selected work
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/utenkkekou/Quick-Annotation">Quick Annotation ↗</a></h3>
-      <p>交通信号灯图片预标注与人工审核工具，连接视觉 API，在浏览器中完成逐张审核。</p>
-      <p><sub>Python · 视觉模型 · 数据标注</sub></p>
+      <p>Traffic-light image pre-annotation and human review, with a vision API and a browser-based review workflow.</p>
+      <p><sub>Python · Vision models · Annotation</sub></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/utenkkekou/AI-">AI 短剧创作 ↗</a></h3>
-      <p>探索 AI 辅助短剧生成，为原创 IP 创作构建应用原型。</p>
-      <p><sub>TypeScript · 生成式 AI</sub></p>
+      <h3><a href="https://github.com/utenkkekou/AI-">AI Short-Drama Studio ↗</a></h3>
+      <p>An application prototype exploring AI-assisted short-drama generation for original creative projects.</p>
+      <p><sub>TypeScript · Generative AI</sub></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/utenkkekou/3D-">3D 力学图 ↗</a></h3>
-      <p>用三维可视化表达力学关系，探索直观的交互与展示方式。</p>
-      <p><sub>3D · 可视化 · 交互实验</sub></p>
+      <h3><a href="https://github.com/utenkkekou/3D-">3D Mechanics ↗</a></h3>
+      <p>Experiments in visualizing mechanical relationships through interactive three-dimensional scenes.</p>
+      <p><sub>3D · Visualization · Interaction</sub></p>
     </td>
     <td width="50%" valign="top">
-      <h3>AI 智能眼镜</h3>
-      <p>正在开发面向视障用户的辅助系统，连接视觉感知、语音交互与移动端。</p>
-      <p><sub>计算机视觉 · 语音 · 无障碍</sub></p>
+      <h3>AI Smart Glasses</h3>
+      <p>An assistive system in development for people with visual impairments, connecting visual perception, voice interaction and mobile apps.</p>
+      <p><sub>Computer vision · Voice · Accessibility</sub></p>
     </td>
   </tr>
 </table>
 
-### 03 / 技术栈
+### 03 / Tech stack
 
-**编程语言**
+**Languages**
 
 ![Python](https://img.shields.io/badge/Python-172A29?style=flat-square&logo=python&logoColor=9FE7C4)
 ![TypeScript](https://img.shields.io/badge/TypeScript-172A29?style=flat-square&logo=typescript&logoColor=9FE7C4)
@@ -67,7 +67,7 @@
 ![Swift](https://img.shields.io/badge/Swift-172A29?style=flat-square&logo=swift&logoColor=9FE7C4)
 ![SQL](https://img.shields.io/badge/SQL-172A29?style=flat-square)
 
-**AI 与计算机视觉**
+**AI & computer vision**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-172A29?style=flat-square&logo=pytorch&logoColor=9FE7C4)
 ![Transformers](https://img.shields.io/badge/Transformers-172A29?style=flat-square&logo=huggingface&logoColor=9FE7C4)
@@ -77,7 +77,7 @@
 ![ONNX Runtime](https://img.shields.io/badge/ONNX%20Runtime-172A29?style=flat-square&logo=onnx&logoColor=9FE7C4)
 ![Core ML](https://img.shields.io/badge/Core%20ML-172A29?style=flat-square&logo=apple&logoColor=9FE7C4)
 
-**Web 与可视化**
+**Web & visualization**
 
 ![React](https://img.shields.io/badge/React-172A29?style=flat-square&logo=react&logoColor=9FE7C4)
 ![Next.js](https://img.shields.io/badge/Next.js-172A29?style=flat-square&logo=nextdotjs&logoColor=9FE7C4)
@@ -85,7 +85,7 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-172A29?style=flat-square&logo=tailwindcss&logoColor=9FE7C4)
 ![Three.js](https://img.shields.io/badge/Three.js-172A29?style=flat-square&logo=threedotjs&logoColor=9FE7C4)
 
-**后端与接口**
+**Backend & APIs**
 
 ![Node.js](https://img.shields.io/badge/Node.js-172A29?style=flat-square&logo=nodedotjs&logoColor=9FE7C4)
 ![FastAPI](https://img.shields.io/badge/FastAPI-172A29?style=flat-square&logo=fastapi&logoColor=9FE7C4)
@@ -93,14 +93,14 @@
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-172A29?style=flat-square&logo=sqlalchemy&logoColor=9FE7C4)
 ![WebSocket](https://img.shields.io/badge/WebSocket-172A29?style=flat-square)
 
-**移动端**
+**Mobile**
 
 ![Flutter](https://img.shields.io/badge/Flutter-172A29?style=flat-square&logo=flutter&logoColor=9FE7C4)
 ![React Native](https://img.shields.io/badge/React%20Native-172A29?style=flat-square&logo=react&logoColor=9FE7C4)
 ![Expo](https://img.shields.io/badge/Expo-172A29?style=flat-square&logo=expo&logoColor=9FE7C4)
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-172A29?style=flat-square&logo=swift&logoColor=9FE7C4)
 
-**数据与基础设施**
+**Data & infrastructure**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-172A29?style=flat-square&logo=postgresql&logoColor=9FE7C4)
 ![MySQL](https://img.shields.io/badge/MySQL-172A29?style=flat-square&logo=mysql&logoColor=9FE7C4)
@@ -110,10 +110,10 @@
 ![Prometheus](https://img.shields.io/badge/Prometheus-172A29?style=flat-square&logo=prometheus&logoColor=9FE7C4)
 ![Git](https://img.shields.io/badge/Git-172A29?style=flat-square&logo=git&logoColor=9FE7C4)
 
-其他项目工具：FFmpeg、pandas、openpyxl、Hono、Cloudflare Workers、pytest、Playwright。
+Additional project tools: FFmpeg, pandas, openpyxl, Hono, Cloudflare Workers, pytest and Playwright.
 
-### 04 / 正在探索
+### 04 / Currently exploring
 
-- **向量检索与知识建模** — pgvector 数据模型、文本嵌入接口与检索原型。
-- **桌面端应用** — Electron 客户端原型与 Web 应用的桌面集成。
-- **空间识别与端侧 AI** — 户型图到 3D 的识别流程、模型量化与设备端推理优化。
+- **Vector retrieval & knowledge modeling** — pgvector data models, text-embedding interfaces and retrieval prototypes.
+- **Desktop applications** — Electron client prototypes and desktop integration for web applications.
+- **Spatial recognition & edge AI** — floor-plan-to-3D recognition pipelines, model quantization and on-device inference optimization.
