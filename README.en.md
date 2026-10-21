@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(max-width: 640px)" srcset="./assets/header-mobile.svg" />
-  <img src="./assets/header.svg" width="100%" alt="lynn / utenkkekou — AI, vision &amp; creative engineering" />
+  <img src="./assets/hero-orbit.svg" width="100%" alt="lynn / utenkkekou — AI, vision &amp; creative engineering" />
 </picture>
 
 ## Hi, I'm lynn

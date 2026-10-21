@@ -128,7 +128,7 @@ const wearable = card(4,'ASSISTIVE TECHNOLOGY','IN DEVELOPMENT / VISION / VOICE 
   label(386,89,'VOICE',C.cyan,11)+label(385,203,'BUILDING',C.amber,10),C.amber);
 
 await Promise.all([
-  ['header.svg',header()],['header-mobile.svg',header(true)],
+  ['hero-orbit.svg',header()],['header-mobile.svg',header(true)],
   ['project-nexus.svg',nexus],['project-vision.svg',vision],
   ['project-annotation.svg',annotation],['project-wearable.svg',wearable],
 ].map(([name,contents])=>writeFile(`${output}/${name}`,contents)));

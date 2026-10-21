@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(max-width: 640px)" srcset="./assets/header-mobile.svg" />
-  <img src="./assets/header.svg" width="100%" alt="lynn / utenkkekou — AI・画像認識・アプリ開発 / AI, vision &amp; creative engineering" />
+  <img src="./assets/hero-orbit.svg" width="100%" alt="lynn / utenkkekou — AI・画像認識・アプリ開発 / AI, vision &amp; creative engineering" />
 </picture>
 
 ## こんにちは、lynn です
