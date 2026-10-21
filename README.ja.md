@@ -52,12 +52,77 @@ AI 基盤、視覚データ、空間設計、補助ツールに取り組んで�
   </tr>
 </table>
 
-**その他のプロジェクト · 紹介**
+### 02 / プロダクト・アプリ
 
-- **商品検索・調達支援ワークスペース** — 画像や説明から家具・素材を探し、仕様の比較、購入費用の見積もり、調査記録の保存を支援します。商品選定に向けた個人研究のプロトタイプで、ソースは非公開です。
-- **AI ショートドラマ制作ワークスペース** — 脚本、キャラクター、絵コンテ、ショットの順序を一つの作業空間にまとめ、企画段階の構想を支援します。制作フローのプロトタイプで、ソースは非公開です。
+個人プロジェクトと [HoshiyomiAI](https://github.com/HoshiyomiAI) での開発を通じて、創作、マーケティング、Web サービス、日常生活での AI の活用を探っています。以下は開発中のプロダクトで、画像は機能のコンセプト図です。非公開プロジェクトは用途と利用体験を紹介します。このセクションの紹介ページは中文です。
 
-### 02 / 技術スタック
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="./docs/footage-os.md"><img src="./assets/project-footage-v1.svg" width="100%" alt="Footage OS · 動画素材管理と編集のコンセプト図" /></a>
+      <h3><a href="./docs/footage-os.md">Footage OS ↗</a></h3>
+      <p>コンテンツ制作者向けの動画ワークスペース。手元の素材整理、必要なシーンの検索、字幕やラフカットの補助、テンプレートによる動画作成をまとめ、撮影済み素材を再利用しやすくします。</p>
+      <p><sub>素材管理 · トーク動画編集 · 動画書き出し</sub></p>
+      <p><sub>開発中 · ソース非公開</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="./docs/tradewind.md"><img src="./assets/project-tradewind-v1.svg" width="100%" alt="TradeWind · コンテンツ企画とカレンダーのコンセプト図" /></a>
+      <h3><a href="./docs/tradewind.md">信風 TradeWind ↗</a></h3>
+      <p>個人開発者や小規模チーム向けのマーケティングツール。ブランド資料、関連する話題、コンテンツの下書き、公開予定をまとめ、話題探しから制作、公開前の確認までを支援します。</p>
+      <p><sub>ブランド資料 · 話題探し · コンテンツ企画</sub></p>
+      <p><sub>開発中 · ソース非公開</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="./docs/ai-frontdesk.md"><img src="./assets/project-frontdesk-v1.svg" width="100%" alt="AI Front-Desk · Web 問い合わせと連絡先受付のコンセプト図" /></a>
+      <h3><a href="./docs/ai-frontdesk.md">AI Front-Desk ↗</a></h3>
+      <p>企業や教育機関の Web サイトに設ける AI 相談窓口。訪問者に商品、講座、サービスを案内し、連絡先を受け付け、担当者が問い合わせ履歴をまとめて確認できるようにします。</p>
+      <p><sub>Web 相談 · よくある質問 · 連絡先受付</sub></p>
+      <p><sub>製品プロトタイプ · ソース非公開</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="./docs/lumecho.md"><img src="./assets/project-lumecho-v1.svg" width="100%" alt="Lumecho · 日々のひらめきとカード体験のコンセプト図" /></a>
+      <h3><a href="./docs/lumecho.md">Lumecho · 命道シリーズ ↗</a></h3>
+      <p>自分の星空、カード、日々のひらめき、AI ガイドとの対話を一つのモバイル体験にまとめます。気づきの保存や問いの記録、継続的な対話を通じて、文化的な楽しみと自己観察を支えます。</p>
+      <p><sub>日々のひらめき · 個人の記録 · ガイドとの対話</sub></p>
+      <p><sub>開発中 · ソース非公開</sub></p>
+    </td>
+  </tr>
+</table>
+
+**創作・インタラクション**
+
+- **[StoryLoom 织界](./docs/project-gallery.md#storyloom)** — あらすじから世界や登場人物を整理し、章を進めながら物語の分岐を調整。既存の小説も地図と時間軸で理解できます。開発中。
+- **[kirakira](./docs/project-gallery.md#kirakira)** — AI キャラクターを探して創作し、物語の対話、会話履歴の管理、思い出の整理を通じて交流を続けます。開発中。
+- **[Human-Machine-Love](./docs/project-gallery.md#companion)** — 自分の AI キャラクターを作り、日常の対話を続け、大切な思い出を閲覧・編集・保存します。開発中。
+- **[鎏声 AURUM](./docs/project-gallery.md#aurum)** — 音楽のアイデア、曲風の選択、創作ガイド、タスクの進捗、作品整理を一つにまとめた制作フローのプロトタイプ。
+- **[AI ショートドラマ制作ワークスペース](./docs/project-gallery.md#short-drama)** — 脚本、キャラクター、絵コンテ、ショットの順序を整理し、短編ドラマの企画を支援する制作フローのプロトタイプ。
+- **[YOU & AI](./docs/project-gallery.md#you-and-ai)** — 段階的な質問、レーダーチャート、フィードバックカードで AI の使い方と能力の限界を整理する、ルールベースのアンケート試作。
+
+**業務・効率化**
+
+- **[越境 EC の経理・税務補助](./docs/project-gallery.md#finance-workbench)** — プラットフォームの精算、収支、期間集計を整理し、資料確認と申告草案の出力を通じて人による照合を支援する業務アプリのプロトタイプ。
+- **[商品検索・調達支援ワークスペース](./docs/project-gallery.md#sourcing)** — 画像や説明から家具・素材を探し、仕様の比較、購入費用の見積もり、調査記録の保存を支援する個人研究のプロトタイプ。
+- **[代替検索ワード辞典](./docs/project-gallery.md#shopping-dictionary)** — 商品の別の検索語を調べ、保存・投稿・共有し、キーワードを変えて購入候補を探す製品プロトタイプ。
+
+<details>
+<summary>その他の生活アプリ、製品プロトタイプ、再利用ツール</summary>
+
+- **[キッチンアシスタント](./docs/project-gallery.md#kitchen)** — レシピ閲覧、食材の記録、今日の献立選びをまとめた操作体験のプロトタイプ。
+- **[服の買い物・コーディネート](./docs/project-gallery.md#fashion)** — 商品閲覧、サイズ選択、カート、着こなし相談を備えた小売体験のプロトタイプ。
+- **[AI サービス紹介・開発相談](./docs/project-gallery.md#project-consultant)** — サービス領域を紹介し、対話でプロジェクトの要望を整理する Web サイトのプロトタイプ。
+- **[TAROT インタラクティブ体験](./docs/project-gallery.md#tarot)** — カード選び、スプレッド、解釈、履歴の振り返りを備えたモバイル操作のプロトタイプ。複数のクライアントは一つのプロジェクトとして紹介します。
+- **[プロダクト基盤](./docs/project-gallery.md#product-foundation)** — 新しいアプリで再利用できるアカウント、会員、通知、日常的な運営管理の機能。
+- **[AI サービス管理のカスタマイズ](./docs/project-gallery.md#service-adaptation)** — オープンソースの New API を基に、モデルサービスの接続と日常の管理体験を探る開発。
+- **[Quick Annotation](https://github.com/utenkkekou/Quick-Annotation)** — 画像の事前アノテーションと人手レビューのための軽量ツール。ソース公開済み。
+- **[暦・文化探索ツール](https://github.com/utenkkekou/Metaphysical-data)** — 伝統暦の変換や命式・星図の計算を扱う初期のツール。ソース公開済み。
+
+</details>
+
+[プロジェクト図鑑を見る →](./docs/project-gallery.md) · 公開ソースへのリンクを明記した項目を除き、製品紹介のみを掲載しています。
+
+### 03 / 技術スタック
 
 **プログラミング言語**
 
@@ -116,7 +181,7 @@ AI 基盤、視覚データ、空間設計、補助ツールに取り組んで�
 
 </details>
 
-### 03 / 取り組んでいる分野
+### 04 / 取り組んでいる分野
 
 **AI システムと視覚認識**
 
@@ -130,7 +195,7 @@ Web 管理画面、API サービス、ロールに基づく権限制御、テナ
 
 Flutter、React Native、ネイティブ iOS 開発。カメラ・位置情報・BLE の連携、H.264 映像とリアルタイム音声の通信。Three.js のシーン、間取り・空間の可視化、ダッシュボード、ビジュアルワークフロー、コンテンツ制作画面も開発しています。
 
-### 04 / 現在探っていること
+### 05 / 現在探っていること
 
 - **ベクトル検索・知識モデリング** — pgvector のデータモデル、テキスト埋め込み API、検索プロトタイプ。
 - **デスクトップアプリ** — Electron クライアントの試作と Web アプリのデスクトップ統合。

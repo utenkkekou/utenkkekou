@@ -52,12 +52,77 @@
   </tr>
 </table>
 
-**其他项目 · 简介**
+### 02 / 产品与应用
 
-- **商品检索与采购辅助工作台** — 通过图片或描述寻找家具与材料，比较商品规格、估算采购成本并保留查阅记录，用于选品和采购前的信息整理。独立研究原型，源码未公开。
-- **AI 短剧创作工作台** — 把剧本、角色设定、分镜与镜头顺序放在同一工作区，辅助短剧的前期构思与内容规划。创作流程原型，源码未公开。
+在个人项目与 [HoshiyomiAI](https://github.com/HoshiyomiAI) 的产品实践中，探索 AI 怎样进入创作、营销、网站服务与日常生活。以下产品持续开发中，配图为功能概念示意；未公开项目只介绍用途与体验。
 
-### 02 / 技术栈
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="./docs/footage-os.md"><img src="./assets/project-footage-v1.svg" width="100%" alt="Footage OS · 视频素材与剪辑功能示意" /></a>
+      <h3><a href="./docs/footage-os.md">Footage OS ↗</a></h3>
+      <p>面向内容创作者的视频工作台。把本地素材整理、片段查找、字幕与粗剪辅助、模板成片放在一起，让拍过的内容更容易再次利用。</p>
+      <p><sub>素材管理 · 口播加工 · 成片导出</sub></p>
+      <p><sub>开发中 · 源码未公开</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="./docs/tradewind.md"><img src="./assets/project-tradewind-v1.svg" width="100%" alt="信风 TradeWind · 内容策划与日历功能示意" /></a>
+      <h3><a href="./docs/tradewind.md">信风 TradeWind ↗</a></h3>
+      <p>面向独立开发者与小团队的营销工作台。集中管理品牌资料、相关讨论、内容草稿与发布日历，帮助找到话题、准备内容并完成发布前审核。</p>
+      <p><sub>品牌资料 · 话题线索 · 内容策划</sub></p>
+      <p><sub>开发中 · 源码未公开</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="./docs/ai-frontdesk.md"><img src="./assets/project-frontdesk-v1.svg" width="100%" alt="AI Front-Desk · 网站咨询与留资功能示意" /></a>
+      <h3><a href="./docs/ai-frontdesk.md">AI Front-Desk ↗</a></h3>
+      <p>为企业与教育机构的网站提供智能咨询入口。帮助访客了解产品、课程和服务，留下联系信息，并让工作人员集中查看咨询记录。</p>
+      <p><sub>网站咨询 · 常见问题 · 访客留资</sub></p>
+      <p><sub>产品原型 · 源码未公开</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="./docs/lumecho.md"><img src="./assets/project-lumecho-v1.svg" width="100%" alt="Lumecho · 日常灵感与卡牌互动概念示意" /></a>
+      <h3><a href="./docs/lumecho.md">Lumecho · 命道探索系列 ↗</a></h3>
+      <p>把个人星空、卡牌、每日灵感与 AI 向导问答组织成移动体验。用户可以收藏灵感、记录问题并继续交流，用于文化娱乐与自我观察。</p>
+      <p><sub>每日灵感 · 个人记录 · 向导对话</sub></p>
+      <p><sub>开发中 · 源码未公开</sub></p>
+    </td>
+  </tr>
+</table>
+
+**创作与互动**
+
+- **[StoryLoom 织界](./docs/project-gallery.md#storyloom)** — 从大纲出发整理世界与角色，推进章节、调整故事分支，也能用地图和时间轴理解已有小说。开发中。
+- **[kirakira](./docs/project-gallery.md#kirakira)** — 发现与创作 AI 角色，通过故事对话、会话管理和回忆整理延续互动。开发中。
+- **[Human-Machine-Love](./docs/project-gallery.md#companion)** — 创建个人 AI 角色，延续日常交流，查看、修改和保存重要回忆。开发中。
+- **[鎏声 AURUM](./docs/project-gallery.md#aurum)** — 把音乐灵感、曲风选择、创作引导、任务进度与作品整理放在一个工作台。创作流程原型。
+- **[AI 短剧创作工作台](./docs/project-gallery.md#short-drama)** — 集中整理剧本、角色、分镜与镜头顺序，辅助短剧的前期构思。创作流程原型。
+- **[YOU & AI](./docs/project-gallery.md#you-and-ai)** — 通过分阶段问卷、雷达图和反馈卡梳理 AI 使用习惯与能力边界。规则问卷原型。
+
+**业务与效率**
+
+- **[跨境电商财税助手](./docs/project-gallery.md#finance-workbench)** — 整理平台结算、收入费用与期间汇总，检查资料并导出申报草稿，方便人工核对。业务应用原型。
+- **[商品检索与采购辅助工作台](./docs/project-gallery.md#sourcing)** — 通过图片或描述寻找家具与材料，比较规格、估算采购成本并保留查阅记录。独立研究原型。
+- **[平替词典](./docs/project-gallery.md#shopping-dictionary)** — 提供商品的替代搜索词，支持查找、收藏、投稿与分享，帮助换个关键词寻找购买选择。产品原型。
+
+<details>
+<summary>更多生活应用、产品原型与复用工具</summary>
+
+- **[厨房助手](./docs/project-gallery.md#kitchen)** — 菜谱浏览、食材记录与今日菜单选择的交互原型。
+- **[服饰选购与搭配](./docs/project-gallery.md#fashion)** — 商品浏览、尺码选择、购物车与搭配咨询的零售体验原型。
+- **[AI 服务展示与需求咨询](./docs/project-gallery.md#project-consultant)** — 展示服务方向，通过对话辅助梳理项目需求的网站原型。
+- **[TAROT 互动体验](./docs/project-gallery.md#tarot)** — 抽牌、牌阵、解读与历史回看的移动交互原型；不同客户端合为一项介绍。
+- **[产品基础工程](./docs/project-gallery.md#product-foundation)** — 为新应用复用账户、会员、通知与日常运营管理功能。
+- **[AI 服务管理适配](./docs/project-gallery.md#service-adaptation)** — 基于开源 New API 的二次开发实践，探索模型服务接入与日常管理体验。
+- **[Quick Annotation](https://github.com/utenkkekou/Quick-Annotation)** — 面向图片预标注与人工复核的轻量工具，已公开源码。
+- **[历法与文化探索工具](https://github.com/utenkkekou/Metaphysical-data)** — 传统历法换算与排盘计算的早期工具，已公开源码。
+
+</details>
+
+[浏览项目图鉴 →](./docs/project-gallery.md) · 除明确给出公开源码入口的项目外，其余仅提供产品介绍。
+
+### 03 / 技术栈
 
 **编程语言**
 
@@ -116,7 +181,7 @@
 
 </details>
 
-### 03 / 构建方向
+### 04 / 构建方向
 
 **AI 系统与视觉感知**
 
@@ -130,7 +195,7 @@ Web 管理后台、API 服务、角色权限、租户隔离、文件与媒体资
 
 Flutter、React Native 与原生 iOS 开发，接入相机、定位、BLE、H.264 视频及实时音频通信。也在构建 Three.js 场景、户型与空间可视化、图表大屏、可视化工作流和内容创作界面。
 
-### 04 / 正在探索
+### 05 / 正在探索
 
 - **向量检索与知识建模** — pgvector 数据模型、文本嵌入接口与检索原型。
 - **桌面端应用** — Electron 客户端原型与 Web 应用的桌面集成。

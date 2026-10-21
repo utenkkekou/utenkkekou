@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="280" viewBox="0 0 560 280" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">AI FRONT-DESK — concept illustration</title><desc id="desc">A company website with a welcoming chat panel and a short contact form suggests answering common questions and collecting visitor enquiries. Original concept illustration, not a product screenshot.</desc>
+<defs>
+  <linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111627"/><stop offset=".55" stop-color="#090c17"/><stop offset="1" stop-color="#11142a"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#213d50" stop-opacity=".94"/><stop offset=".55" stop-color="#162133" stop-opacity=".92"/><stop offset="1" stop-color="#27203d" stop-opacity=".9"/></linearGradient>
+  <linearGradient id="light" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#79e7ef"/><stop offset=".6" stop-color="#a7c5ff"/><stop offset="1" stop-color="#a99cff"/></linearGradient>
+  <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2b485c"/><stop offset=".55" stop-color="#273249"/><stop offset="1" stop-color="#3b2e56"/></linearGradient>
+  <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b3a4ec"/><stop offset="1" stop-color="#655c96"/></linearGradient>
+  <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7186a4"/><stop offset=".4" stop-color="#303b57"/><stop offset="1" stop-color="#8991b3"/></linearGradient>
+  <radialGradient id="ambient"><stop stop-color="#5050b0" stop-opacity=".25"/><stop offset="1" stop-color="#5050b0" stop-opacity="0"/></radialGradient>
+  <filter id="blur" x="-60%" y="-100%" width="220%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+</defs>
+<rect x="0" y="0" width="560" height="280" rx="14" fill="url(#back)" />
+<ellipse cx="328" cy="145" rx="235" ry="142" fill="url(#ambient)"/>
+<rect x="0.5" y="0.5" width="559" height="279" rx="13.5" fill="none" stroke="#253047" stroke-opacity=".7"/>
+<rect x="24" y="24" width="3" height="13" rx="1" fill="#79e7ef" />
+<text x="38" y="35" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#dbe7f6" letter-spacing="1.6" font-weight="600">AI FRONT-DESK</text>
+<text x="510" y="35" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#79e7ef" letter-spacing="1.4">07</text>
+<ellipse cx="282" cy="215" rx="187" ry="16" fill="#02040b" opacity=".8" filter="url(#blur)"/>
+  <rect x="70" y="62" width="357" height="154" rx="12" fill="#131d30" stroke="#4e6681" stroke-width="1.2"/>
+  <path d="M71 86H426" fill="none" stroke="#35445d" />
+  <circle cx="86" cy="74" r="2" fill="#6d819a" /><circle cx="96" cy="74" r="2" fill="#6d819a" /><circle cx="106" cy="74" r="2" fill="#6d819a" />
+  <rect x="146" y="69" width="176" height="10" rx="4" fill="#24344c" />
+  <path d="M163 74H239" fill="none" stroke="#516783" stroke-width="1"/>
+  <text x="94" y="119" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#dce7f8" font-weight="600" letter-spacing="-.4">Welcome.</text>
+  <rect x="96" y="132" width="156" height="4" rx="2" fill="#4f6581" /><rect x="96" y="143" width="118" height="4" rx="2" fill="#364e6a" />
+  <rect x="96" y="163" width="117" height="11" rx="4" fill="#1d3147" stroke="#40556d"/>
+  <rect x="96" y="180" width="117" height="11" rx="4" fill="#1d3147" stroke="#40556d"/>
+  <path d="M105 168H154 M105 185H175" fill="none" stroke="#617a93" stroke-width="1"/>
+  <rect x="223" y="163" width="44" height="28" rx="5" fill="#3b6677" />
+  <path d="M236 177H254 M249 172L254 177L249 182" fill="none" stroke="#bef2ef" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="316" y="87" width="176" height="135" rx="11" fill="url(#glass)" stroke="#7281a3" stroke-width="1.2"/>
+  <path d="M317 118H491" fill="none" stroke="#3b506a" />
+  <rect x="330" y="96" width="16" height="14" rx="5" fill="#4e8496" />
+  <path d="M334 109L332 113L339 110" fill="#4e8496" stroke="none" />
+  <text x="355" y="106" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#cfdfed" letter-spacing="1.2">LET’S TALK</text>
+  <circle cx="474" cy="103" r="2" fill="#99e5d1" />
+  <rect x="329" y="129" width="137" height="29" rx="7" fill="#2d4c63" />
+  <text x="339" y="147" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#d4e9f0" >How can we help?</text>
+  <rect x="373" y="164" width="104" height="20" rx="6" fill="#4a456a" />
+  <path d="M384 174H432 M438 174H463" fill="none" stroke="#b1acd2" stroke-width="1.2"/>
+  <rect x="329" y="194" width="148" height="16" rx="6" fill="#101d2f" stroke="#384e68"/>
+  <path d="M340 202H389 M461 198L467 202L461 206" fill="none" stroke="#7797b1" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M24 240H536" fill="none" stroke="#263147" />
+<text x="25" y="261" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#97a8bf" letter-spacing="1.4">WELCOME VISITORS. START CONVERSATIONS.</text>
+<path d="M519 254H529V264 M519 264L529 254" fill="none" stroke="#79e7ef" stroke-width="1.3"/>
+</svg>

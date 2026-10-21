@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="280" viewBox="0 0 560 280" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">LUMECHO — concept illustration</title><desc id="desc">A luminous mobile screen with celestial motifs, an inspiration card and a small question bubble suggests daily reflection, star culture, card draws and AI conversation. Original concept illustration, not a product screenshot.</desc>
+<defs>
+  <linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111627"/><stop offset=".55" stop-color="#090c17"/><stop offset="1" stop-color="#11142a"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#213d50" stop-opacity=".94"/><stop offset=".55" stop-color="#162133" stop-opacity=".92"/><stop offset="1" stop-color="#27203d" stop-opacity=".9"/></linearGradient>
+  <linearGradient id="light" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#79e7ef"/><stop offset=".6" stop-color="#a7c5ff"/><stop offset="1" stop-color="#a99cff"/></linearGradient>
+  <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2b485c"/><stop offset=".55" stop-color="#273249"/><stop offset="1" stop-color="#3b2e56"/></linearGradient>
+  <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b3a4ec"/><stop offset="1" stop-color="#655c96"/></linearGradient>
+  <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7186a4"/><stop offset=".4" stop-color="#303b57"/><stop offset="1" stop-color="#8991b3"/></linearGradient>
+  <radialGradient id="ambient"><stop stop-color="#5050b0" stop-opacity=".25"/><stop offset="1" stop-color="#5050b0" stop-opacity="0"/></radialGradient>
+  <filter id="blur" x="-60%" y="-100%" width="220%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+</defs>
+<rect x="0" y="0" width="560" height="280" rx="14" fill="url(#back)" />
+<ellipse cx="328" cy="145" rx="235" ry="142" fill="url(#ambient)"/>
+<rect x="0.5" y="0.5" width="559" height="279" rx="13.5" fill="none" stroke="#253047" stroke-opacity=".7"/>
+<rect x="24" y="24" width="3" height="13" rx="1" fill="#a99cff" />
+<text x="38" y="35" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#dbe7f6" letter-spacing="1.6" font-weight="600">LUMECHO</text>
+<text x="510" y="35" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#a99cff" letter-spacing="1.4">08</text>
+<ellipse cx="285" cy="218" rx="158" ry="15" fill="#02040b" opacity=".8" filter="url(#blur)"/>
+  <path d="M119 76Q120.26 81.74 126 83Q120.26 84.26 119 90Q117.74 84.26 112 83Q117.74 81.74 119 76Z" fill="#99c9e8" stroke="none" /><path d="M428 101Q429.44 107.56 436 109Q429.44 110.44 428 117Q426.56 110.44 420 109Q426.56 107.56 428 101Z" fill="#a99cff" stroke="none" /><path d="M454 169Q454.9 173.1 459 174Q454.9 174.9 454 179Q453.1 174.9 449 174Q453.1 173.1 454 169Z" fill="#79e7ef" stroke="none" />
+  <circle cx="149" cy="133" r="1.5" fill="#91a8d3" /><circle cx="399" cy="66" r="1.5" fill="#ada8d2" /><circle cx="412" cy="193" r="1.5" fill="#81c1cb" />
+  <g transform="rotate(-12 197 145)">
+    <rect x="155" y="87" width="84" height="123" rx="8" fill="#20283f" stroke="#665c88" stroke-width="1.1"/>
+    <rect x="162" y="94" width="70" height="109" rx="5" fill="none" stroke="#4b5378"/>
+    <path d="M197 117L213 143L197 169L181 143Z" fill="none" stroke="#9695c7" stroke-width="1.1"/>
+    <path d="M197 130Q199.34 140.66 210 143Q199.34 145.34 197 156Q194.66 145.34 184 143Q194.66 140.66 197 130Z" fill="#b2a6df" stroke="none" />
+    <circle cx="179" cy="111" r="1.5" fill="#8f8eb8" /><circle cx="214" cy="184" r="1.5" fill="#8f8eb8" />
+    <path d="M184 185H209" fill="none" stroke="#7e719c" stroke-width="1"/>
+  </g>
+  <rect x="237" y="51" width="114" height="175" rx="19" fill="#0c1121" stroke="url(#metal)" stroke-width="2"/>
+  <rect x="244" y="58" width="100" height="161" rx="14" fill="url(#screen)" />
+  <rect x="278" y="63" width="32" height="5" rx="3" fill="#0c1324" />
+  <text x="263" y="86" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#d9def1" letter-spacing="1.7">LUMECHO</text>
+  <path d="M304 97C286 92 274 107 278 120C283 136 303 139 314 124C302 127 291 119 291 109C292 103 297 99 304 97Z" fill="#b6c1e7" stroke="none" />
+  <path d="M321 101Q321.72 104.28 325 105Q321.72 105.72 321 109Q320.28 105.72 317 105Q320.28 104.28 321 101Z" fill="#d4d6f0" stroke="none" /><circle cx="263" cy="117" r="1.1" fill="#a4c3df" /><circle cx="311" cy="141" r="1.1" fill="#a4c3df" />
+  <rect x="255" y="150" width="77" height="39" rx="7" fill="#1d2a43" stroke="#65708f"/>
+  <text x="265" y="165" font-family="Arial, Helvetica, sans-serif" font-size="7.5" fill="#c9cfe8" letter-spacing="1.4">TODAY</text>
+  <path d="M265 175H319 M265 181H302" fill="none" stroke="#6f86a6" stroke-width="1"/>
+  <rect x="260" y="198" width="66" height="12" rx="5" fill="#4b527e" />
+  <path d="M271 201Q271.54 203.46 274 204Q271.54 204.54 271 207Q270.46 204.54 268 204Q270.46 203.46 271 201Z" fill="#c9c8ef" stroke="none" />
+  <path d="M280 204H314" fill="none" stroke="#b8bfe2" stroke-width="1"/>
+  <rect x="335" y="139" width="93" height="52" rx="9" fill="#1e3147" stroke="#62748c"/>
+  <path d="M352 190L345 202L367 190" fill="#1e3147" stroke="#62748c" stroke-width="1"/>
+  <path d="M351 155H408 M351 164H397 M351 173H382" fill="none" stroke="#8ab5c9" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M381 81Q381.9 85.1 386 86Q381.9 86.9 381 91Q380.1 86.9 376 86Q380.1 85.1 381 81Z" fill="#c1b8e7" stroke="none" />
+<path d="M24 240H536" fill="none" stroke="#263147" />
+<text x="25" y="261" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#97a8bf" letter-spacing="1.4">A DAILY MOMENT OF WONDER.</text>
+<path d="M519 254H529V264 M519 264L529 254" fill="none" stroke="#a99cff" stroke-width="1.3"/>
+</svg>
