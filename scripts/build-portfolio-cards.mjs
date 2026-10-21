@@ -130,9 +130,7 @@ const frontdesk = card('AI FRONT-DESK', 'WELCOME VISITORS. START CONVERSATIONS.'
   ${rect(329, 194, 148, 16, 6, '#101d2f', 'stroke="#384e68"')}
   ${path('M340 202H389 M461 198L467 202L461 206', 'none', '#7797b1', 'stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"')}`);
 
-const lumecho = card('LUMECHO', 'A DAILY MOMENT OF WONDER.',
-  'A luminous mobile screen with celestial motifs, an inspiration card and a small question bubble suggests daily reflection, star culture, card draws and AI conversation.',
-  `<ellipse cx="285" cy="218" rx="158" ry="15" fill="#02040b" opacity=".8" filter="url(#blur)"/>
+const lumechoArt = `<ellipse cx="285" cy="218" rx="158" ry="15" fill="#02040b" opacity=".8" filter="url(#blur)"/>
   ${star(119, 83, 7, '#99c9e8')}${star(428, 109, 8, violet)}${star(454, 174, 5, cyan)}
   ${circle(149, 133, 1.5, '#91a8d3')}${circle(399, 66, 1.5, '#ada8d2')}${circle(412, 193, 1.5, '#81c1cb')}
   <g transform="rotate(-12 197 145)">
@@ -158,10 +156,59 @@ const lumecho = card('LUMECHO', 'A DAILY MOMENT OF WONDER.',
   ${rect(335, 139, 93, 52, 9, '#1e3147', 'stroke="#62748c"')}
   ${path('M352 190L345 202L367 190', '#1e3147', '#62748c', 'stroke-width="1"')}
   ${path('M351 155H408 M351 164H397 M351 173H382', 'none', '#8ab5c9', 'stroke-width="1.5" stroke-linecap="round"')}
-  ${star(381, 86, 5, '#c1b8e7')}`, violet);
+  ${star(381, 86, 5, '#c1b8e7')}`;
+const lumecho = card('LUMECHO', 'A DAILY MOMENT OF WONDER.',
+  'A luminous mobile screen with celestial motifs, an inspiration card and a small question bubble suggests daily reflection, star culture, card draws and AI conversation.',
+  lumechoArt, violet);
+
+// The panoramic composition keeps the original mobile illustration at its native size.
+// The surrounding night landscapes are decorative, not additional product capabilities.
+const lumechoWide = `<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="280" viewBox="0 0 1120 280" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">LUMECHO — panoramic concept illustration</title><desc id="desc">A luminous mobile screen, an inspiration card and a conversation bubble sit between softly lit night landscapes and quiet constellations. Original concept illustration, not a product screenshot.</desc>
+${defs}
+${rect(0, 0, 1120, 280, 14, 'url(#back)')}
+<ellipse cx="560" cy="145" rx="425" ry="165" fill="url(#ambient)"/>
+<ellipse cx="192" cy="155" rx="230" ry="115" fill="url(#ambient)" opacity=".45"/>
+<ellipse cx="935" cy="145" rx="215" ry="130" fill="url(#ambient)" opacity=".55"/>
+${rect(.5, .5, 1119, 279, 13.5, 'none', 'stroke="#253047" stroke-opacity=".7"')}
+${rect(24, 24, 3, 13, 1, violet)}
+${text(38, 35, 'LUMECHO', 11, '#dbe7f6', 'letter-spacing="1.6" font-weight="600"')}
+${path('M58 217C126 205 157 211 216 201S330 205 388 213 M731 214C795 196 854 204 909 211S1010 212 1064 202', 'none', '#37435f', 'stroke-width="1" opacity=".65"')}
+${path('M77 154C178 114 272 141 367 104 M756 120C841 83 947 111 1035 76', 'none', '#606a9a', 'stroke-width="1" opacity=".22"')}
+<g transform="rotate(-5 234 141)">
+  ${rect(128, 83, 213, 120, 12, 'url(#glass)', 'stroke="#4b5f7c" stroke-width="1"')}
+  ${rect(136, 91, 197, 104, 7, '#1b263c')}
+  ${path('M136 169L168 150L196 165L234 129L267 155L299 143L333 168V195H136Z', '#30435a')}
+  ${path('M136 184L186 163L222 180L270 161L307 178L333 172V195H136Z', '#42546c')}
+  ${path('M136 194Q193 176 240 187T333 186V195H136Z', '#536278')}
+  ${path('M160 113L186 124L213 107L243 116L271 103L307 118', 'none', '#98a1ca', 'stroke-width=".9" opacity=".6"')}
+  ${circle(160, 113, 1.8, '#aac5de')}${circle(186, 124, 1.4, '#9eb6d5')}${star(213, 107, 4, '#c1b5e4')}${circle(243, 116, 1.5, '#a5b0d1')}${circle(271, 103, 2, '#a6b9df')}${circle(307, 118, 1.3, '#a5b0d1')}
+  ${path('M151 181Q185 174 211 182', 'none', '#8c9bb3', 'stroke-width=".8" opacity=".6"')}
+</g>
+${star(98, 103, 5, '#8eb7d1')}${star(306, 61, 5, '#aaa0d4')}${star(357, 171, 3, '#91c7d4')}
+${circle(69, 176, 1.4, '#8b98bd')}${circle(112, 63, 1.1, '#909ac2')}${circle(364, 82, 1.5, '#8793ba')}
+<g transform="rotate(5 895 139)">
+  ${rect(797, 75, 196, 132, 12, 'url(#glass)', 'stroke="#665f84" stroke-width="1"')}
+  ${rect(805, 83, 180, 116, 7, '#20283e')}
+  ${path('M805 171Q839 146 869 165L900 143L940 166L963 151L985 164V199H805Z', '#3b425f')}
+  ${path('M805 187Q848 165 891 181T985 179V199H805Z', '#55506f')}
+  ${path('M805 195Q848 182 895 192T985 187V199H805Z', '#6c607f')}
+  ${path('M832 114L861 101L882 123L914 106L950 119', 'none', '#b2a2d1', 'stroke-width=".9" opacity=".7"')}
+  ${circle(832, 114, 1.7, '#a7b8d9')}${star(861, 101, 4, '#d4c5ed')}${circle(882, 123, 1.7, '#b9acd7')}${circle(914, 106, 2, '#b8b8df')}${circle(950, 119, 1.6, '#c1b6e0')}
+  ${star(961, 94, 3, '#a9bbdb')}${circle(925, 143, 1.1, '#979bbf')}${circle(840, 143, 1.2, '#979bbf')}
+  ${path('M845 187Q868 181 892 187', 'none', '#b4a1bd', 'stroke-width=".8" opacity=".55"')}
+</g>
+${star(1030, 120, 6, '#b8a8dc')}${star(779, 72, 4, '#a7b9e1')}${star(747, 180, 3, '#a0c5db')}
+${circle(1012, 177, 1.5, '#9897c0')}${circle(1061, 83, 1.1, '#9897c0')}${circle(769, 143, 1.2, '#9a9cc7')}
+<g transform="translate(266 0)">${lumechoArt}</g>
+${path('M24 240H1096', 'none', '#263147')}
+${text(25, 261, 'A DAILY MOMENT OF WONDER.', 10, '#97a8bf', 'letter-spacing="1.4"')}
+${path('M1079 254H1089V264 M1079 264L1089 254', 'none', violet, 'stroke-width="1.3"')}
+</svg>\n`;
 
 await Promise.all([
   ['project-footage-v1.svg', footage], ['project-tradewind-v1.svg', tradewind],
   ['project-frontdesk-v1.svg', frontdesk], ['project-lumecho-v1.svg', lumecho],
+  ['project-lumecho-wide-v1.svg', lumechoWide],
 ].map(([name, svg]) => writeFile(`${output}/${name}`, svg)));
-console.log('Built 4 original portfolio purpose illustrations.');
+console.log('Built 4 original portfolio purpose illustrations and 1 panoramic variant.');

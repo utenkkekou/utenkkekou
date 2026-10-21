@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="280" viewBox="0 0 1120 280" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">LUMECHO — panoramic concept illustration</title><desc id="desc">A luminous mobile screen, an inspiration card and a conversation bubble sit between softly lit night landscapes and quiet constellations. Original concept illustration, not a product screenshot.</desc>
+<defs>
+  <linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111627"/><stop offset=".55" stop-color="#090c17"/><stop offset="1" stop-color="#11142a"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#213d50" stop-opacity=".94"/><stop offset=".55" stop-color="#162133" stop-opacity=".92"/><stop offset="1" stop-color="#27203d" stop-opacity=".9"/></linearGradient>
+  <linearGradient id="light" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#79e7ef"/><stop offset=".6" stop-color="#a7c5ff"/><stop offset="1" stop-color="#a99cff"/></linearGradient>
+  <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2b485c"/><stop offset=".55" stop-color="#273249"/><stop offset="1" stop-color="#3b2e56"/></linearGradient>
+  <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b3a4ec"/><stop offset="1" stop-color="#655c96"/></linearGradient>
+  <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7186a4"/><stop offset=".4" stop-color="#303b57"/><stop offset="1" stop-color="#8991b3"/></linearGradient>
+  <radialGradient id="ambient"><stop stop-color="#5050b0" stop-opacity=".25"/><stop offset="1" stop-color="#5050b0" stop-opacity="0"/></radialGradient>
+  <filter id="blur" x="-60%" y="-100%" width="220%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+</defs>
+<rect x="0" y="0" width="1120" height="280" rx="14" fill="url(#back)" />
+<ellipse cx="560" cy="145" rx="425" ry="165" fill="url(#ambient)"/>
+<ellipse cx="192" cy="155" rx="230" ry="115" fill="url(#ambient)" opacity=".45"/>
+<ellipse cx="935" cy="145" rx="215" ry="130" fill="url(#ambient)" opacity=".55"/>
+<rect x="0.5" y="0.5" width="1119" height="279" rx="13.5" fill="none" stroke="#253047" stroke-opacity=".7"/>
+<rect x="24" y="24" width="3" height="13" rx="1" fill="#a99cff" />
+<text x="38" y="35" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#dbe7f6" letter-spacing="1.6" font-weight="600">LUMECHO</text>
+<path d="M58 217C126 205 157 211 216 201S330 205 388 213 M731 214C795 196 854 204 909 211S1010 212 1064 202" fill="none" stroke="#37435f" stroke-width="1" opacity=".65"/>
+<path d="M77 154C178 114 272 141 367 104 M756 120C841 83 947 111 1035 76" fill="none" stroke="#606a9a" stroke-width="1" opacity=".22"/>
+<g transform="rotate(-5 234 141)">
+  <rect x="128" y="83" width="213" height="120" rx="12" fill="url(#glass)" stroke="#4b5f7c" stroke-width="1"/>
+  <rect x="136" y="91" width="197" height="104" rx="7" fill="#1b263c" />
+  <path d="M136 169L168 150L196 165L234 129L267 155L299 143L333 168V195H136Z" fill="#30435a" stroke="none" />
+  <path d="M136 184L186 163L222 180L270 161L307 178L333 172V195H136Z" fill="#42546c" stroke="none" />
+  <path d="M136 194Q193 176 240 187T333 186V195H136Z" fill="#536278" stroke="none" />
+  <path d="M160 113L186 124L213 107L243 116L271 103L307 118" fill="none" stroke="#98a1ca" stroke-width=".9" opacity=".6"/>
+  <circle cx="160" cy="113" r="1.8" fill="#aac5de" /><circle cx="186" cy="124" r="1.4" fill="#9eb6d5" /><path d="M213 103Q213.72 106.28 217 107Q213.72 107.72 213 111Q212.28 107.72 209 107Q212.28 106.28 213 103Z" fill="#c1b5e4" stroke="none" /><circle cx="243" cy="116" r="1.5" fill="#a5b0d1" /><circle cx="271" cy="103" r="2" fill="#a6b9df" /><circle cx="307" cy="118" r="1.3" fill="#a5b0d1" />
+  <path d="M151 181Q185 174 211 182" fill="none" stroke="#8c9bb3" stroke-width=".8" opacity=".6"/>
+</g>
+<path d="M98 98Q98.9 102.1 103 103Q98.9 103.9 98 108Q97.1 103.9 93 103Q97.1 102.1 98 98Z" fill="#8eb7d1" stroke="none" /><path d="M306 56Q306.9 60.1 311 61Q306.9 61.9 306 66Q305.1 61.9 301 61Q305.1 60.1 306 56Z" fill="#aaa0d4" stroke="none" /><path d="M357 168Q357.54 170.46 360 171Q357.54 171.54 357 174Q356.46 171.54 354 171Q356.46 170.46 357 168Z" fill="#91c7d4" stroke="none" />
+<circle cx="69" cy="176" r="1.4" fill="#8b98bd" /><circle cx="112" cy="63" r="1.1" fill="#909ac2" /><circle cx="364" cy="82" r="1.5" fill="#8793ba" />
+<g transform="rotate(5 895 139)">
+  <rect x="797" y="75" width="196" height="132" rx="12" fill="url(#glass)" stroke="#665f84" stroke-width="1"/>
+  <rect x="805" y="83" width="180" height="116" rx="7" fill="#20283e" />
+  <path d="M805 171Q839 146 869 165L900 143L940 166L963 151L985 164V199H805Z" fill="#3b425f" stroke="none" />
+  <path d="M805 187Q848 165 891 181T985 179V199H805Z" fill="#55506f" stroke="none" />
+  <path d="M805 195Q848 182 895 192T985 187V199H805Z" fill="#6c607f" stroke="none" />
+  <path d="M832 114L861 101L882 123L914 106L950 119" fill="none" stroke="#b2a2d1" stroke-width=".9" opacity=".7"/>
+  <circle cx="832" cy="114" r="1.7" fill="#a7b8d9" /><path d="M861 97Q861.72 100.28 865 101Q861.72 101.72 861 105Q860.28 101.72 857 101Q860.28 100.28 861 97Z" fill="#d4c5ed" stroke="none" /><circle cx="882" cy="123" r="1.7" fill="#b9acd7" /><circle cx="914" cy="106" r="2" fill="#b8b8df" /><circle cx="950" cy="119" r="1.6" fill="#c1b6e0" />
+  <path d="M961 91Q961.54 93.46 964 94Q961.54 94.54 961 97Q960.46 94.54 958 94Q960.46 93.46 961 91Z" fill="#a9bbdb" stroke="none" /><circle cx="925" cy="143" r="1.1" fill="#979bbf" /><circle cx="840" cy="143" r="1.2" fill="#979bbf" />
+  <path d="M845 187Q868 181 892 187" fill="none" stroke="#b4a1bd" stroke-width=".8" opacity=".55"/>
+</g>
+<path d="M1030 114Q1031.08 118.92 1036 120Q1031.08 121.08 1030 126Q1028.92 121.08 1024 120Q1028.92 118.92 1030 114Z" fill="#b8a8dc" stroke="none" /><path d="M779 68Q779.72 71.28 783 72Q779.72 72.72 779 76Q778.28 72.72 775 72Q778.28 71.28 779 68Z" fill="#a7b9e1" stroke="none" /><path d="M747 177Q747.54 179.46 750 180Q747.54 180.54 747 183Q746.46 180.54 744 180Q746.46 179.46 747 177Z" fill="#a0c5db" stroke="none" />
+<circle cx="1012" cy="177" r="1.5" fill="#9897c0" /><circle cx="1061" cy="83" r="1.1" fill="#9897c0" /><circle cx="769" cy="143" r="1.2" fill="#9a9cc7" />
+<g transform="translate(266 0)"><ellipse cx="285" cy="218" rx="158" ry="15" fill="#02040b" opacity=".8" filter="url(#blur)"/>
+  <path d="M119 76Q120.26 81.74 126 83Q120.26 84.26 119 90Q117.74 84.26 112 83Q117.74 81.74 119 76Z" fill="#99c9e8" stroke="none" /><path d="M428 101Q429.44 107.56 436 109Q429.44 110.44 428 117Q426.56 110.44 420 109Q426.56 107.56 428 101Z" fill="#a99cff" stroke="none" /><path d="M454 169Q454.9 173.1 459 174Q454.9 174.9 454 179Q453.1 174.9 449 174Q453.1 173.1 454 169Z" fill="#79e7ef" stroke="none" />
+  <circle cx="149" cy="133" r="1.5" fill="#91a8d3" /><circle cx="399" cy="66" r="1.5" fill="#ada8d2" /><circle cx="412" cy="193" r="1.5" fill="#81c1cb" />
+  <g transform="rotate(-12 197 145)">
+    <rect x="155" y="87" width="84" height="123" rx="8" fill="#20283f" stroke="#665c88" stroke-width="1.1"/>
+    <rect x="162" y="94" width="70" height="109" rx="5" fill="none" stroke="#4b5378"/>
+    <path d="M197 117L213 143L197 169L181 143Z" fill="none" stroke="#9695c7" stroke-width="1.1"/>
+    <path d="M197 130Q199.34 140.66 210 143Q199.34 145.34 197 156Q194.66 145.34 184 143Q194.66 140.66 197 130Z" fill="#b2a6df" stroke="none" />
+    <circle cx="179" cy="111" r="1.5" fill="#8f8eb8" /><circle cx="214" cy="184" r="1.5" fill="#8f8eb8" />
+    <path d="M184 185H209" fill="none" stroke="#7e719c" stroke-width="1"/>
+  </g>
+  <rect x="237" y="51" width="114" height="175" rx="19" fill="#0c1121" stroke="url(#metal)" stroke-width="2"/>
+  <rect x="244" y="58" width="100" height="161" rx="14" fill="url(#screen)" />
+  <rect x="278" y="63" width="32" height="5" rx="3" fill="#0c1324" />
+  <text x="263" y="86" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#d9def1" letter-spacing="1.7">LUMECHO</text>
+  <path d="M304 97C286 92 274 107 278 120C283 136 303 139 314 124C302 127 291 119 291 109C292 103 297 99 304 97Z" fill="#b6c1e7" stroke="none" />
+  <path d="M321 101Q321.72 104.28 325 105Q321.72 105.72 321 109Q320.28 105.72 317 105Q320.28 104.28 321 101Z" fill="#d4d6f0" stroke="none" /><circle cx="263" cy="117" r="1.1" fill="#a4c3df" /><circle cx="311" cy="141" r="1.1" fill="#a4c3df" />
+  <rect x="255" y="150" width="77" height="39" rx="7" fill="#1d2a43" stroke="#65708f"/>
+  <text x="265" y="165" font-family="Arial, Helvetica, sans-serif" font-size="7.5" fill="#c9cfe8" letter-spacing="1.4">TODAY</text>
+  <path d="M265 175H319 M265 181H302" fill="none" stroke="#6f86a6" stroke-width="1"/>
+  <rect x="260" y="198" width="66" height="12" rx="5" fill="#4b527e" />
+  <path d="M271 201Q271.54 203.46 274 204Q271.54 204.54 271 207Q270.46 204.54 268 204Q270.46 203.46 271 201Z" fill="#c9c8ef" stroke="none" />
+  <path d="M280 204H314" fill="none" stroke="#b8bfe2" stroke-width="1"/>
+  <rect x="335" y="139" width="93" height="52" rx="9" fill="#1e3147" stroke="#62748c"/>
+  <path d="M352 190L345 202L367 190" fill="#1e3147" stroke="#62748c" stroke-width="1"/>
+  <path d="M351 155H408 M351 164H397 M351 173H382" fill="none" stroke="#8ab5c9" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M381 81Q381.9 85.1 386 86Q381.9 86.9 381 91Q380.1 86.9 376 86Q380.1 85.1 381 81Z" fill="#c1b8e7" stroke="none" /></g>
+<path d="M24 240H1096" fill="none" stroke="#263147" />
+<text x="25" y="261" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#97a8bf" letter-spacing="1.4">A DAILY MOMENT OF WONDER.</text>
+<path d="M1079 254H1089V264 M1079 264L1089 254" fill="none" stroke="#a99cff" stroke-width="1.3"/>
+</svg>

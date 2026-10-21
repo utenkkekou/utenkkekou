@@ -28,13 +28,13 @@
     <td width="50%" valign="top">
       <a href="./docs/storyloom.md"><img src="./assets/project-storyloom-v1.svg" width="100%" alt="StoryLoom 织界 · 用途・機能のコンセプト図" /></a>
       <h3><a href="./docs/storyloom.md">StoryLoom 织界 ↗</a></h3>
-      <p>アウトラインから物語の世界を組み立て、キャラクターや章を発展させ、分岐を比較します。地図やタイムラインで、既存の小説に登場する人物や出来事も整理できます。</p>
+      <p>構想から世界観や登場人物、章を展開。分岐を比較し、地図や時系列で既存の小説も読み解きます。</p>
       <p><sub>開発中 · ソースコード非公開</sub></p>
     </td>
     <td width="50%" valign="top">
       <a href="./docs/footage-os.md"><img src="./assets/project-footage-v1.svg" width="100%" alt="Footage OS · 用途・機能のコンセプト図" /></a>
       <h3><a href="./docs/footage-os.md">Footage OS ↗</a></h3>
-      <p>動画素材の整理やクリップの検索、字幕作成やラフカット、仕上げの準備を支援し、撮影済みの素材を再利用しやすくします。</p>
+      <p>動画素材を整理し、必要な場面を検索。字幕・ラフカット・仕上げの準備を支援し、素材を再利用しやすくします。</p>
       <p><sub>開発中 · ソースコード非公開</sub></p>
     </td>
   </tr>
@@ -42,13 +42,13 @@
     <td width="50%" valign="top">
       <a href="./docs/kirakira.md"><img src="./assets/project-kirakira-v1.svg" width="100%" alt="kirakira · 用途・機能のコンセプト図" /></a>
       <h3><a href="./docs/kirakira.md">kirakira ↗</a></h3>
-      <p>お気に入りの AI キャラクターを見つけて保存し、自分だけの設定も作れます。継続的な対話、会話の管理、思い出の整理を通じて、物語を広げていきます。</p>
+      <p>AI キャラクターを探す・保存する・創作する。物語の対話、会話の切り替え、思い出の整理で交流を続けます。</p>
       <p><sub>開発中 · ソースコード非公開</sub></p>
     </td>
     <td width="50%" valign="top">
       <a href="./docs/aurum.md"><img src="./assets/project-aurum-v1.svg" width="100%" alt="鎏声 AURUM · 用途・機能のコンセプト図" /></a>
       <h3><a href="./docs/aurum.md">鎏声 AURUM ↗</a></h3>
-      <p>音楽のアイデア、曲調、歌詞の方向性、作品の整理を一つのワークスペースにまとめます。タスクの進捗を確認し、ビジュアルや MV の構想も準備できます。</p>
+      <p>音楽のアイデア、曲調、歌詞の方向性を整理。タスクと作品を確認し、ビジュアルや MV の構想を準備します。</p>
       <p><sub>創作ワークフローのプロトタイプ · 生成機能を開発中</sub></p>
     </td>
   </tr>
@@ -65,13 +65,13 @@
     <td width="50%" valign="top">
       <a href="./docs/tradewind.md"><img src="./assets/project-tradewind-v1.svg" width="100%" alt="信風 TradeWind · 用途・機能のコンセプト図" /></a>
       <h3><a href="./docs/tradewind.md">信風 TradeWind ↗</a></h3>
-      <p>個人開発者や小規模チーム向けに、ブランド資料、関連する議論、下書き、投稿カレンダーを集約。コンテンツの準備と公開前の確認を支援します。</p>
+      <p>個人開発者や小規模チームのブランド資料・話題・下書き・投稿予定を整理し、公開前の確認を支援します。</p>
       <p><sub>開発中 · ソースコード非公開</sub></p>
     </td>
     <td width="50%" valign="top">
       <a href="./docs/ai-frontdesk.md"><img src="./assets/project-frontdesk-v1.svg" width="100%" alt="AI Front-Desk · 用途・機能のコンセプト図" /></a>
       <h3><a href="./docs/ai-frontdesk.md">AI Front-Desk ↗</a></h3>
-      <p>企業や教育機関のウェブサイトに問い合わせ窓口を設け、製品・講座・サービスの案内や連絡先の受付を支援します。担当者は問い合わせ履歴をまとめて確認できます。</p>
+      <p>企業・教育サイトで製品や講座、サービスを案内。連絡先を受け付け、問い合わせ履歴をまとめて確認できます。</p>
       <p><sub>製品プロトタイプ · ソースコード非公開</sub></p>
     </td>
   </tr>
@@ -88,13 +88,13 @@
     <td width="50%" valign="top">
       <a href="./docs/room-studio.md"><img src="./assets/project-spatial-v3.svg" width="100%" alt="3D Room Studio · 用途・機能のコンセプト図" /></a>
       <h3><a href="./docs/room-studio.md">3D Room Studio ↗</a></h3>
-      <p>間取りを描き、家具を配置し、素材や寸法を調整して、複数の空間プランを保存。リフォーム案や家具の組み合わせを視覚的に比較できます。</p>
+      <p>間取り作成、家具配置、素材・寸法の調整に対応。異なる設計を保存し、リフォームや家具の組み合わせを比較できます。</p>
       <p><sub>個人プロジェクト · ソースコード非公開</sub></p>
     </td>
     <td width="50%" valign="top">
       <a href="./docs/assistive-vision.md"><img src="./assets/project-wearable-v3.svg" width="100%" alt="AI スマートグラス · 用途・機能のコンセプト図" /></a>
       <h3><a href="./docs/assistive-vision.md">AI スマートグラス ↗</a></h3>
-      <p>視覚に障害のある方に向けて、音声による周囲の状況説明や経路・操作の案内を通じ、日常で使いやすい視覚支援を探求しています。</p>
+      <p>音声による周囲の状況説明と経路・操作の案内を通じ、視覚に障害のある方の日常支援を探求しています。</p>
       <p><sub>開発中 · ソースコード非公開</sub></p>
     </td>
   </tr>
@@ -102,10 +102,8 @@
 
 <table>
   <tr>
-    <td width="50%" valign="middle">
-      <a href="./docs/lumecho.md"><img src="./assets/project-lumecho-v1.svg" width="100%" alt="Lumecho · 命道シリーズ · 用途・機能のコンセプト図" /></a>
-    </td>
-    <td width="50%" valign="middle">
+    <td>
+      <a href="./docs/lumecho.md"><picture><source media="(max-width: 640px)" srcset="./assets/project-lumecho-v1.svg" /><img src="./assets/project-lumecho-wide-v1.svg" width="100%" alt="Lumecho · 命道シリーズ · 用途・機能のコンセプト図" /></picture></a>
       <h3><a href="./docs/lumecho.md">Lumecho · 命道シリーズ ↗</a></h3>
       <p>自分だけの星空、カード、日々のインスピレーションを通じて問いやアイデアを記録し、AI ガイドと対話を続けます。文化的な娯楽や自分を振り返るための体験です。</p>
       <p><sub>開発中 · ソースコード非公開</sub></p>
@@ -124,13 +122,13 @@
     <td width="50%" valign="top">
       <a href="./docs/core-nexus-ai.md"><img src="./assets/project-nexus-v3.svg" width="100%" alt="Core Nexus AI · 用途・機能のコンセプト図" /></a>
       <h3><a href="./docs/core-nexus-ai.md">Core Nexus AI ↗</a></h3>
-      <p>AI アプリから複数のモデルを利用するための共通窓口です。テキスト、画像、音声、動画のリクエストをまとめ、異なるモデルを扱いやすくします。</p>
+      <p>AI アプリから共通の窓口で異なるモデルを利用。テキスト・画像・音声・動画のリクエストをまとめて扱えます。</p>
       <p><sub>オープンソースツール · <a href="https://github.com/utenkkekou/core-nexus-ai">ソースコードを見る</a></sub></p>
     </td>
     <td width="50%" valign="top">
       <a href="./docs/vision-pipeline.md"><img src="./assets/project-vision-v3.svg" width="100%" alt="PTL-Detect · 用途・機能のコンセプト図" /></a>
       <h3><a href="./docs/vision-pipeline.md">PTL-Detect ↗</a></h3>
-      <p>歩行者用信号機の認識に向けて、動画・画像の整理、アノテーションの確認、モデル学習、誤認識の分析を行い、認識精度の改善に役立てます。</p>
+      <p>歩行者用信号機の動画・画像を整理。アノテーション確認、モデル学習、誤認識の分析を通じて認識精度を改善します。</p>
       <p><sub>オープンソースツール · <a href="https://github.com/utenkkekou/PTL-Detect">ソースコードを見る</a></sub></p>
     </td>
   </tr>

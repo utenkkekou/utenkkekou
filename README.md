@@ -28,13 +28,13 @@
     <td width="50%" valign="top">
       <a href="./docs/storyloom.md"><img src="./assets/project-storyloom-v1.svg" width="100%" alt="StoryLoom 织界 · 用途与功能概念示意" /></a>
       <h3><a href="./docs/storyloom.md">StoryLoom 织界 ↗</a></h3>
-      <p>从大纲搭建故事世界，发展角色与章节、比较不同分支。也能借助地图和时间轴，梳理已有小说中的人物与事件。</p>
+      <p>从大纲整理世界与角色，推进章节、比较故事分支；用地图和时间轴理解已有小说。</p>
       <p><sub>开发中 · 源码未公开</sub></p>
     </td>
     <td width="50%" valign="top">
       <a href="./docs/footage-os.md"><img src="./assets/project-footage-v1.svg" width="100%" alt="Footage OS · 用途与功能概念示意" /></a>
       <h3><a href="./docs/footage-os.md">Footage OS ↗</a></h3>
-      <p>为内容创作者整理视频素材、查找片段，辅助字幕与粗剪、准备成片，让已经拍过的内容更容易再次利用。</p>
+      <p>整理视频素材、查找片段，辅助字幕与粗剪、准备成片，让拍过的内容更容易再次利用。</p>
       <p><sub>开发中 · 源码未公开</sub></p>
     </td>
   </tr>
@@ -42,13 +42,13 @@
     <td width="50%" valign="top">
       <a href="./docs/kirakira.md"><img src="./assets/project-kirakira-v1.svg" width="100%" alt="kirakira · 用途与功能概念示意" /></a>
       <h3><a href="./docs/kirakira.md">kirakira ↗</a></h3>
-      <p>发现和收藏喜欢的 AI 角色，也能创作自己的角色设定。通过持续对话、会话管理与回忆整理，让故事继续展开。</p>
+      <p>发现、收藏与创作 AI 角色，通过故事对话、会话切换和回忆整理延续互动。</p>
       <p><sub>开发中 · 源码未公开</sub></p>
     </td>
     <td width="50%" valign="top">
       <a href="./docs/aurum.md"><img src="./assets/project-aurum-v1.svg" width="100%" alt="鎏声 AURUM · 用途与功能概念示意" /></a>
       <h3><a href="./docs/aurum.md">鎏声 AURUM ↗</a></h3>
-      <p>把音乐灵感、曲风选择、歌词方向与作品整理放进同一个工作台，查看任务进度，并准备视觉风格与 MV 构想。</p>
+      <p>整理音乐灵感、曲风和歌词方向，查看任务与作品，准备视觉风格和 MV 构想。</p>
       <p><sub>创作流程原型 · 生成能力完善中</sub></p>
     </td>
   </tr>
@@ -65,13 +65,13 @@
     <td width="50%" valign="top">
       <a href="./docs/tradewind.md"><img src="./assets/project-tradewind-v1.svg" width="100%" alt="信风 TradeWind · 用途与功能概念示意" /></a>
       <h3><a href="./docs/tradewind.md">信风 TradeWind ↗</a></h3>
-      <p>面向独立开发者和小团队，集中整理品牌资料、相关讨论、内容草稿与发布日历，帮助准备内容和完成发布前审核。</p>
+      <p>为独立开发者和小团队整理品牌资料、话题、内容草稿与发布日历，辅助发布前审核。</p>
       <p><sub>开发中 · 源码未公开</sub></p>
     </td>
     <td width="50%" valign="top">
       <a href="./docs/ai-frontdesk.md"><img src="./assets/project-frontdesk-v1.svg" width="100%" alt="AI Front-Desk · 用途与功能概念示意" /></a>
       <h3><a href="./docs/ai-frontdesk.md">AI Front-Desk ↗</a></h3>
-      <p>为企业和教育网站提供咨询入口，帮助访客了解产品、课程与服务、留下联系信息，让工作人员集中查看咨询记录。</p>
+      <p>为企业和教育网站提供咨询，介绍产品、课程与服务，收集联系信息并集中查看咨询记录。</p>
       <p><sub>产品原型 · 源码未公开</sub></p>
     </td>
   </tr>
@@ -88,13 +88,13 @@
     <td width="50%" valign="top">
       <a href="./docs/room-studio.md"><img src="./assets/project-spatial-v3.svg" width="100%" alt="3D Room Studio · 用途与功能概念示意" /></a>
       <h3><a href="./docs/room-studio.md">3D Room Studio ↗</a></h3>
-      <p>绘制户型、摆放家具，调整材质与尺寸，保存多套空间方案。让装修规划和家具搭配有更直观的比较方式。</p>
+      <p>绘制户型、摆放家具、调整材质与尺寸，保存不同设计，直观比较装修和搭配方案。</p>
       <p><sub>个人项目 · 源码未公开</sub></p>
     </td>
     <td width="50%" valign="top">
       <a href="./docs/assistive-vision.md"><img src="./assets/project-wearable-v3.svg" width="100%" alt="AI 智能眼镜 · 用途与功能概念示意" /></a>
       <h3><a href="./docs/assistive-vision.md">AI 智能眼镜 ↗</a></h3>
-      <p>面向视障用户，通过语音了解周围场景，并提供路线与交互提示，探索更易使用的日常视觉辅助体验。</p>
+      <p>通过语音获取周围场景信息，提供路线与交互提示，探索面向视障用户的日常辅助体验。</p>
       <p><sub>开发中 · 源码未公开</sub></p>
     </td>
   </tr>
@@ -102,10 +102,8 @@
 
 <table>
   <tr>
-    <td width="50%" valign="middle">
-      <a href="./docs/lumecho.md"><img src="./assets/project-lumecho-v1.svg" width="100%" alt="Lumecho · 命道探索系列 · 用途与功能概念示意" /></a>
-    </td>
-    <td width="50%" valign="middle">
+    <td>
+      <a href="./docs/lumecho.md"><picture><source media="(max-width: 640px)" srcset="./assets/project-lumecho-v1.svg" /><img src="./assets/project-lumecho-wide-v1.svg" width="100%" alt="Lumecho · 命道探索系列 · 用途与功能概念示意" /></picture></a>
       <h3><a href="./docs/lumecho.md">Lumecho · 命道探索系列 ↗</a></h3>
       <p>在个人星空、卡牌与每日灵感中记录问题、收藏想法，再与 AI 向导继续交流。用于文化娱乐与自我观察。</p>
       <p><sub>开发中 · 源码未公开</sub></p>
@@ -124,13 +122,13 @@
     <td width="50%" valign="top">
       <a href="./docs/core-nexus-ai.md"><img src="./assets/project-nexus-v3.svg" width="100%" alt="Core Nexus AI · 用途与功能概念示意" /></a>
       <h3><a href="./docs/core-nexus-ai.md">Core Nexus AI ↗</a></h3>
-      <p>为 AI 应用提供统一的模型使用入口，集中处理文本、图像、语音和视频请求，让不同模型更方便地协同服务。</p>
+      <p>让 AI 应用通过统一入口使用不同模型，集中处理文本、图像、语音与视频请求。</p>
       <p><sub>开源工具 · <a href="https://github.com/utenkkekou/core-nexus-ai">查看源码</a></sub></p>
     </td>
     <td width="50%" valign="top">
       <a href="./docs/vision-pipeline.md"><img src="./assets/project-vision-v3.svg" width="100%" alt="PTL-Detect · 用途与功能概念示意" /></a>
       <h3><a href="./docs/vision-pipeline.md">PTL-Detect ↗</a></h3>
-      <p>围绕行人信号灯识别，整理视频与图片、复核标注、训练模型并分析误判，帮助持续改进识别效果。</p>
+      <p>整理行人信号灯视频与图片，复核标注、训练模型并分析误判，持续改进识别效果。</p>
       <p><sub>开源工具 · <a href="https://github.com/utenkkekou/PTL-Detect">查看源码</a></sub></p>
     </td>
   </tr>

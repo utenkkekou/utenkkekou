@@ -28,13 +28,13 @@ A place to develop ideas through stories, video, characters, and music.
     <td width="50%" valign="top">
       <a href="./docs/storyloom.md"><img src="./assets/project-storyloom-v1.svg" width="100%" alt="StoryLoom · Purpose and feature concept" /></a>
       <h3><a href="./docs/storyloom.md">StoryLoom ↗</a></h3>
-      <p>Build story worlds from outlines, develop characters and chapters, and compare branching paths. Maps and timelines also help organize the people and events in existing novels.</p>
+      <p>Develop story worlds, characters, and chapters from outlines, compare branching paths, and explore existing novels with maps and timelines.</p>
       <p><sub>In development · Private source</sub></p>
     </td>
     <td width="50%" valign="top">
       <a href="./docs/footage-os.md"><img src="./assets/project-footage-v1.svg" width="100%" alt="Footage OS · Purpose and feature concept" /></a>
       <h3><a href="./docs/footage-os.md">Footage OS ↗</a></h3>
-      <p>Organize footage, find clips, and get help with subtitles, rough cuts, and final-video preparation, making recorded material easier for creators to reuse.</p>
+      <p>Get help organizing footage, finding clips, preparing subtitles and rough cuts, and assembling videos so recorded content is easier to reuse.</p>
       <p><sub>In development · Private source</sub></p>
     </td>
   </tr>
@@ -42,13 +42,13 @@ A place to develop ideas through stories, video, characters, and music.
     <td width="50%" valign="top">
       <a href="./docs/kirakira.md"><img src="./assets/project-kirakira-v1.svg" width="100%" alt="kirakira · Purpose and feature concept" /></a>
       <h3><a href="./docs/kirakira.md">kirakira ↗</a></h3>
-      <p>Discover and save AI characters, or create your own. Continue their stories through ongoing conversations, session management, and organized memories.</p>
+      <p>Discover, save, and create AI characters. Continue interacting through story conversations, switch between sessions, and organize memories to revisit shared moments.</p>
       <p><sub>In development · Private source</sub></p>
     </td>
     <td width="50%" valign="top">
       <a href="./docs/aurum.md"><img src="./assets/project-aurum-v1.svg" width="100%" alt="AURUM · Purpose and feature concept" /></a>
       <h3><a href="./docs/aurum.md">AURUM ↗</a></h3>
-      <p>Bring musical ideas, genre choices, lyric directions, and work organization into one workspace. Track tasks and prepare visual styles and music-video concepts.</p>
+      <p>Organize musical ideas, genre choices, and lyric directions. Review tasks and works, then prepare visual styles and concepts for music videos.</p>
       <p><sub>Creative workflow prototype · Generation features in development</sub></p>
     </td>
   </tr>
@@ -65,13 +65,13 @@ Organize scattered information, content, and inquiries into manageable daily wor
     <td width="50%" valign="top">
       <a href="./docs/tradewind.md"><img src="./assets/project-tradewind-v1.svg" width="100%" alt="TradeWind · Purpose and feature concept" /></a>
       <h3><a href="./docs/tradewind.md">TradeWind ↗</a></h3>
-      <p>For independent developers and small teams: organize brand materials, relevant discussions, drafts, and a publishing calendar to support content preparation and review before publishing.</p>
+      <p>Organize brand materials, topics, content drafts, and publishing calendars for independent developers and small teams, with support for review before publishing.</p>
       <p><sub>In development · Private source</sub></p>
     </td>
     <td width="50%" valign="top">
       <a href="./docs/ai-frontdesk.md"><img src="./assets/project-frontdesk-v1.svg" width="100%" alt="AI Front-Desk · Purpose and feature concept" /></a>
       <h3><a href="./docs/ai-frontdesk.md">AI Front-Desk ↗</a></h3>
-      <p>An inquiry entry point for business and education websites. Help visitors explore products, courses, and services, leave contact details, and let staff review inquiries in one place.</p>
+      <p>Help visitors explore products, courses, and services on business and education websites. Collect contact details and keep inquiry records in one place.</p>
       <p><sub>Product prototype · Private source</sub></p>
     </td>
   </tr>
@@ -88,13 +88,13 @@ Plan living spaces, understand your surroundings, and make room for everyday ins
     <td width="50%" valign="top">
       <a href="./docs/room-studio.md"><img src="./assets/project-spatial-v3.svg" width="100%" alt="3D Room Studio · Purpose and feature concept" /></a>
       <h3><a href="./docs/room-studio.md">3D Room Studio ↗</a></h3>
-      <p>Draw floor plans, place furniture, adjust materials and dimensions, and save multiple room layouts to compare renovation ideas and furnishing choices visually.</p>
+      <p>Draw floor plans, place furniture, adjust materials and dimensions, and save different designs to visually compare renovation plans and furnishing options.</p>
       <p><sub>Personal project · Private source</sub></p>
     </td>
     <td width="50%" valign="top">
       <a href="./docs/assistive-vision.md"><img src="./assets/project-wearable-v3.svg" width="100%" alt="AI Smart Glasses · Purpose and feature concept" /></a>
       <h3><a href="./docs/assistive-vision.md">AI Smart Glasses ↗</a></h3>
-      <p>Explore accessible everyday visual assistance for people with visual impairments, using spoken scene descriptions alongside route and interaction prompts.</p>
+      <p>Explore everyday assistance for people with visual impairments through spoken information about surrounding scenes, along with prompts for routes and interactions.</p>
       <p><sub>In development · Private source</sub></p>
     </td>
   </tr>
@@ -102,10 +102,8 @@ Plan living spaces, understand your surroundings, and make room for everyday ins
 
 <table>
   <tr>
-    <td width="50%" valign="middle">
-      <a href="./docs/lumecho.md"><img src="./assets/project-lumecho-v1.svg" width="100%" alt="Lumecho · MingDao series · Purpose and feature concept" /></a>
-    </td>
-    <td width="50%" valign="middle">
+    <td>
+      <a href="./docs/lumecho.md"><picture><source media="(max-width: 640px)" srcset="./assets/project-lumecho-v1.svg" /><img src="./assets/project-lumecho-wide-v1.svg" width="100%" alt="Lumecho · MingDao series · Purpose and feature concept" /></picture></a>
       <h3><a href="./docs/lumecho.md">Lumecho · MingDao series ↗</a></h3>
       <p>Record questions and save ideas through a personal starry space, cards, and daily inspiration, then continue the conversation with an AI guide. For cultural entertainment and self-reflection.</p>
       <p><sub>In development · Private source</sub></p>
@@ -124,13 +122,13 @@ Explore the source, learn what each tool does, and build on it for your own use 
     <td width="50%" valign="top">
       <a href="./docs/core-nexus-ai.md"><img src="./assets/project-nexus-v3.svg" width="100%" alt="Core Nexus AI · Purpose and feature concept" /></a>
       <h3><a href="./docs/core-nexus-ai.md">Core Nexus AI ↗</a></h3>
-      <p>A shared model access point for AI applications, bringing text, image, audio, and video requests together so different models can serve applications more conveniently.</p>
+      <p>Give AI applications one access point for different models, bringing text, image, audio, and video requests together in a shared interface.</p>
       <p><sub>Open-source tool · <a href="https://github.com/utenkkekou/core-nexus-ai">View source</a></sub></p>
     </td>
     <td width="50%" valign="top">
       <a href="./docs/vision-pipeline.md"><img src="./assets/project-vision-v3.svg" width="100%" alt="PTL-Detect · Purpose and feature concept" /></a>
       <h3><a href="./docs/vision-pipeline.md">PTL-Detect ↗</a></h3>
-      <p>Organize video and images, review annotations, train models, and analyze errors to support ongoing improvements in pedestrian traffic-light recognition.</p>
+      <p>Organize pedestrian traffic-light videos and images, review annotations, train models, and analyze recognition errors to support ongoing improvements in detection quality.</p>
       <p><sub>Open-source tool · <a href="https://github.com/utenkkekou/PTL-Detect">View source</a></sub></p>
     </td>
   </tr>
