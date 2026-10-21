@@ -1,116 +1,81 @@
-<p align="center"><a href="https://github.com/utenkkekou">中文</a> &nbsp; / &nbsp; <strong>English</strong> &nbsp; / &nbsp; <a href="https://github.com/utenkkekou/utenkkekou/blob/main/README.ja.md">日本語</a></p>
+<p align="center"><a href="./README.md">中文</a> &nbsp; / &nbsp; <strong>English</strong> &nbsp; / &nbsp; <a href="./README.ja.md">日本語</a></p>
 
-<p align="center">
-  <img src="./assets/header.en.svg" width="100%" alt="lynn / utenkkekou — AI systems, full-stack apps, vision, multimodal AI and connected devices" />
-</p>
+<picture>
+  <source media="(max-width: 640px)" srcset="./assets/header-mobile.svg" />
+  <img src="./assets/header.svg" width="100%" alt="lynn / utenkkekou — AI, vision &amp; creative engineering" />
+</picture>
 
 ## Hi, I'm lynn
 
 **AI applications · Computer vision · Full-stack & mobile development**
 
-My project work spans multimodal inference, computer vision, business applications, mobile apps and connected devices, alongside data-processing and interactive 3D tools.
+My projects span multimodal inference, vision models, business systems, mobile apps and connected devices. I also build data-processing and interactive 3D tools.
 
-[![GitHub](https://img.shields.io/badge/GitHub-utenkkekou-172A29?style=flat-square&logo=github&logoColor=9FE7C4)](https://github.com/utenkkekou)
-
----
-
-### 01 / Capabilities
-
-| Area | Project experience |
-| --- | --- |
-| **AI & multimodal systems** | Unified inference APIs, model integration, text/image/speech/video processing, streaming responses, tool calling and workflow orchestration. |
-| **Computer vision** | Image pre-annotation and human review, YOLO training and evaluation, detection and segmentation, ONNX inference and on-device Core ML integration. |
-| **Full-stack applications** | Web dashboards, API services, role-based access, tenant isolation, and file and media asset management. |
-| **Mobile & connected devices** | Flutter, React Native and native iOS development; camera, location and BLE integration, plus H.264 video and real-time audio communication. |
-| **Data processing & reporting** | Structured data modeling, CSV/Excel import and cleaning, business report generation, and document upload and processing. |
-| **Visualization & interaction** | Three.js scenes, floor-plan and spatial visualization, data dashboards, visual workflows and content-creation interfaces. |
-| **Engineering & delivery** | Docker deployment, database migrations, asynchronous jobs, WebSocket communication, monitoring metrics and automated tests. |
-
-### 02 / Selected work
+### 01 / Selected work
 
 <table>
   <tr>
     <td width="50%" valign="top">
+      <img src="./assets/project-nexus.svg" width="100%" alt="Core Nexus AI · Multimodal inference gateway concept" />
       <h3><a href="https://github.com/utenkkekou/core-nexus-ai">Core Nexus AI ↗</a></h3>
       <p>A multimodal inference gateway with model adapters, streaming, authentication and task orchestration, plus an offline demo.</p>
       <p><sub>Python · FastAPI · Multimodal AI</sub></p>
     </td>
     <td width="50%" valign="top">
+      <img src="./assets/project-vision.svg" width="100%" alt="PTL-Detect · Pedestrian traffic-light detection concept" />
       <h3><a href="https://github.com/utenkkekou/PTL-Detect">PTL-Detect ↗</a></h3>
-      <p>A pedestrian traffic-light toolkit for annotation, data review, YOLO training and error analysis.</p>
+      <p>A pedestrian traffic-light toolkit for image annotation, data review, YOLO training and error analysis.</p>
       <p><sub>Python · YOLO · Computer vision</sub></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <img src="./assets/project-annotation.svg" width="100%" alt="Quick Annotation · Image pre-annotation and human review concept" />
       <h3><a href="https://github.com/utenkkekou/Quick-Annotation">Quick Annotation ↗</a></h3>
-      <p>Traffic-light image pre-annotation and human review, with a vision API and a browser-based review workflow.</p>
+      <p>Traffic-light image pre-annotation and human review, connecting a vision API to a browser-based review workflow.</p>
       <p><sub>Python · Vision models · Annotation</sub></p>
     </td>
     <td width="50%" valign="top">
+      <img src="./assets/project-wearable.svg" width="100%" alt="AI Smart Glasses · Visual and voice assistance concept, in development" />
       <h3>AI Smart Glasses</h3>
-      <p>An assistive system in development for people with visual impairments, connecting visual perception, voice interaction and mobile apps.</p>
+      <p><strong>In development</strong> · An assistive system for people with visual impairments, connecting visual perception, voice interaction and mobile apps.</p>
       <p><sub>Computer vision · Voice · Accessibility</sub></p>
     </td>
   </tr>
 </table>
 
+### 02 / What I build
+
+**AI systems & visual perception**
+
+Unified inference APIs, model integration, text/image/speech/video processing, streaming responses, tool calling and workflow orchestration. Vision work includes image pre-annotation and human review, YOLO training and evaluation, detection and segmentation, ONNX inference and on-device Core ML integration.
+
+**Full-stack applications & delivery**
+
+Web dashboards, API services, role-based access, tenant isolation, and file and media asset management; structured data modeling, CSV/Excel import and cleaning, business reports, and document upload and processing. Delivery work covers Docker deployment, database migrations, asynchronous jobs, WebSocket communication, monitoring metrics and automated tests.
+
+**Mobile devices & spatial interaction**
+
+Flutter, React Native and native iOS apps with camera, location and BLE integration, H.264 video and real-time audio communication. I also build Three.js scenes, floor-plan and spatial visualizations, data dashboards, visual workflows and content-creation interfaces.
+
 ### 03 / Tech stack
 
-**Languages**
+`Python` `TypeScript` `PyTorch` `YOLO` `FastAPI` `React` `Three.js` `Flutter` `Docker`
 
-![Python](https://img.shields.io/badge/Python-172A29?style=flat-square&logo=python&logoColor=9FE7C4)
-![TypeScript](https://img.shields.io/badge/TypeScript-172A29?style=flat-square&logo=typescript&logoColor=9FE7C4)
-![JavaScript](https://img.shields.io/badge/JavaScript-172A29?style=flat-square&logo=javascript&logoColor=9FE7C4)
-![Go](https://img.shields.io/badge/Go-172A29?style=flat-square&logo=go&logoColor=9FE7C4)
-![Dart](https://img.shields.io/badge/Dart-172A29?style=flat-square&logo=dart&logoColor=9FE7C4)
-![Swift](https://img.shields.io/badge/Swift-172A29?style=flat-square&logo=swift&logoColor=9FE7C4)
-![SQL](https://img.shields.io/badge/SQL-172A29?style=flat-square)
+<details>
+<summary>Explore the full stack and project tools</summary>
 
-**AI & computer vision**
+| Area | Technologies & tools |
+| --- | --- |
+| Languages | Python · TypeScript · JavaScript · Go · Dart · Swift · SQL |
+| AI & computer vision | PyTorch · Transformers · Diffusers · YOLO · OpenCV · ONNX Runtime · Core ML |
+| Web & visualization | React · Next.js · Vue.js · Tailwind CSS · Three.js |
+| Backend & APIs | Node.js · FastAPI · NestJS · SQLAlchemy · WebSocket |
+| Mobile | Flutter · React Native · Expo · SwiftUI |
+| Data & infrastructure | PostgreSQL · MySQL · Redis · MinIO · Docker · Prometheus · Git |
+| Additional project tools | FFmpeg · pandas · openpyxl · Hono · Cloudflare Workers · pytest · Playwright |
 
-![PyTorch](https://img.shields.io/badge/PyTorch-172A29?style=flat-square&logo=pytorch&logoColor=9FE7C4)
-![Transformers](https://img.shields.io/badge/Transformers-172A29?style=flat-square&logo=huggingface&logoColor=9FE7C4)
-![Diffusers](https://img.shields.io/badge/Diffusers-172A29?style=flat-square&logo=huggingface&logoColor=9FE7C4)
-![YOLO](https://img.shields.io/badge/YOLO-172A29?style=flat-square)
-![OpenCV](https://img.shields.io/badge/OpenCV-172A29?style=flat-square&logo=opencv&logoColor=9FE7C4)
-![ONNX Runtime](https://img.shields.io/badge/ONNX%20Runtime-172A29?style=flat-square&logo=onnx&logoColor=9FE7C4)
-![Core ML](https://img.shields.io/badge/Core%20ML-172A29?style=flat-square&logo=apple&logoColor=9FE7C4)
-
-**Web & visualization**
-
-![React](https://img.shields.io/badge/React-172A29?style=flat-square&logo=react&logoColor=9FE7C4)
-![Next.js](https://img.shields.io/badge/Next.js-172A29?style=flat-square&logo=nextdotjs&logoColor=9FE7C4)
-![Vue.js](https://img.shields.io/badge/Vue.js-172A29?style=flat-square&logo=vuedotjs&logoColor=9FE7C4)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-172A29?style=flat-square&logo=tailwindcss&logoColor=9FE7C4)
-![Three.js](https://img.shields.io/badge/Three.js-172A29?style=flat-square&logo=threedotjs&logoColor=9FE7C4)
-
-**Backend & APIs**
-
-![Node.js](https://img.shields.io/badge/Node.js-172A29?style=flat-square&logo=nodedotjs&logoColor=9FE7C4)
-![FastAPI](https://img.shields.io/badge/FastAPI-172A29?style=flat-square&logo=fastapi&logoColor=9FE7C4)
-![NestJS](https://img.shields.io/badge/NestJS-172A29?style=flat-square&logo=nestjs&logoColor=9FE7C4)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-172A29?style=flat-square&logo=sqlalchemy&logoColor=9FE7C4)
-![WebSocket](https://img.shields.io/badge/WebSocket-172A29?style=flat-square)
-
-**Mobile**
-
-![Flutter](https://img.shields.io/badge/Flutter-172A29?style=flat-square&logo=flutter&logoColor=9FE7C4)
-![React Native](https://img.shields.io/badge/React%20Native-172A29?style=flat-square&logo=react&logoColor=9FE7C4)
-![Expo](https://img.shields.io/badge/Expo-172A29?style=flat-square&logo=expo&logoColor=9FE7C4)
-![SwiftUI](https://img.shields.io/badge/SwiftUI-172A29?style=flat-square&logo=swift&logoColor=9FE7C4)
-
-**Data & infrastructure**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-172A29?style=flat-square&logo=postgresql&logoColor=9FE7C4)
-![MySQL](https://img.shields.io/badge/MySQL-172A29?style=flat-square&logo=mysql&logoColor=9FE7C4)
-![Redis](https://img.shields.io/badge/Redis-172A29?style=flat-square&logo=redis&logoColor=9FE7C4)
-![MinIO](https://img.shields.io/badge/MinIO-172A29?style=flat-square&logo=minio&logoColor=9FE7C4)
-![Docker](https://img.shields.io/badge/Docker-172A29?style=flat-square&logo=docker&logoColor=9FE7C4)
-![Prometheus](https://img.shields.io/badge/Prometheus-172A29?style=flat-square&logo=prometheus&logoColor=9FE7C4)
-![Git](https://img.shields.io/badge/Git-172A29?style=flat-square&logo=git&logoColor=9FE7C4)
-
-Additional project tools: FFmpeg, pandas, openpyxl, Hono, Cloudflare Workers, pytest and Playwright.
+</details>
 
 ### 04 / Currently exploring
 
