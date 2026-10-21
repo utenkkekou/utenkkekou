@@ -1,8 +1,8 @@
 <p align="center"><a href="./README.md">中文</a> &nbsp; / &nbsp; <a href="./README.en.md">English</a> &nbsp; / &nbsp; <strong>日本語</strong></p>
 
 <picture>
-  <source media="(max-width: 640px)" srcset="./assets/hero-kinetic-mobile-v2.svg" />
-  <img src="./assets/hero-kinetic-v2.svg" width="100%" alt="lynn / utenkkekou — AI・画像認識・アプリ開発 / AI, vision &amp; creative engineering" />
+  <source media="(max-width: 640px)" srcset="./assets/hero-prism-mobile-v3.svg" />
+  <img src="./assets/hero-prism-v3.svg" width="100%" alt="lynn / utenkkekou — AI・画像認識・アプリ開発 / AI, vision &amp; creative engineering" />
 </picture>
 
 ## こんにちは、lynn です
@@ -18,14 +18,14 @@ AI 基盤、視覚データ、空間設計、補助ツールに取り組んで�
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="./docs/core-nexus-ai.md"><img src="./assets/project-nexus.svg" width="100%" alt="Core Nexus AI · architecture overview" /></a>
+      <a href="./docs/core-nexus-ai.md"><img src="./assets/project-nexus-v3.svg" width="100%" alt="Core Nexus AI · concept illustration" /></a>
       <h3><a href="https://github.com/utenkkekou/core-nexus-ai">Core Nexus AI ↗</a></h3>
       <p>モデル契約とチャネルルーティングを統一するマルチモーダル推論ゲートウェイ。認証、重複リクエスト制御、サーキットブレーカー、非同期処理を組み込みます。</p>
       <p><sub>FastAPI · アダプター契約 · サービス制御</sub></p>
       <p><a href="https://github.com/utenkkekou/core-nexus-ai">ソースコード</a> · <a href="./docs/core-nexus-ai.md">設計・実装の詳細（中文）</a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="./docs/vision-pipeline.md"><img src="./assets/project-vision.svg" width="100%" alt="視覚データ・モデル開発基盤 · architecture overview" /></a>
+      <a href="./docs/vision-pipeline.md"><img src="./assets/project-vision-v3.svg" width="100%" alt="視覚データ・モデル開発基盤 · concept illustration" /></a>
       <h3><a href="https://github.com/utenkkekou/PTL-Detect">視覚データ・モデル開発基盤 ↗</a></h3>
       <p>フレーム抽出、事前ラベル付け、レビュー、学習、誤認識分析を支えるツール群。シーン単位の分割、重複検査、Core ML 出力契約を重視します。</p>
       <p><sub>YOLO · データ品質 · 誤認識分析</sub></p>
@@ -34,7 +34,7 @@ AI 基盤、視覚データ、空間設計、補助ツールに取り組んで�
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="./docs/room-studio.md"><img src="./assets/project-spatial-intro.svg" width="100%" alt="3D Room Studio · concept illustration" /></a>
+      <a href="./docs/room-studio.md"><img src="./assets/project-spatial-v3.svg" width="100%" alt="3D Room Studio · concept illustration" /></a>
       <h3><a href="./docs/room-studio.md">3D Room Studio ↗</a></h3>
       <p>住まいの計画と家具のコーディネートを支える 3D ツール。間取りの作成、家具の配置、素材や寸法の調整、複数案の保存で空間のイメージを比較できます。</p>
       <p><sub>間取り計画 · 家具配置 · プラン保存</sub></p>
@@ -42,7 +42,7 @@ AI 基盤、視覚データ、空間設計、補助ツールに取り組んで�
       <p><sub>個人プロジェクト · ソース非公開</sub></p>
     </td>
     <td width="50%" valign="top">
-      <a href="./docs/assistive-vision.md"><img src="./assets/project-wearable.svg" width="100%" alt="AI スマートグラス · concept illustration" /></a>
+      <a href="./docs/assistive-vision.md"><img src="./assets/project-wearable-v3.svg" width="100%" alt="AI スマートグラス · concept illustration" /></a>
       <h3><a href="./docs/assistive-vision.md">AI スマートグラス ↗</a></h3>
       <p>視覚障害のある方に向けた視覚補助プロジェクト。音声による周囲の情報や経路の案内を通じて、使いやすい日常の補助体験を探っています。</p>
       <p><sub>周囲の情報 · 音声操作 · アクセシビリティ</sub></p>

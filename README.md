@@ -1,8 +1,8 @@
 <p align="center"><strong>中文</strong> &nbsp; / &nbsp; <a href="./README.en.md">English</a> &nbsp; / &nbsp; <a href="./README.ja.md">日本語</a></p>
 
 <picture>
-  <source media="(max-width: 640px)" srcset="./assets/hero-kinetic-mobile-v2.svg" />
-  <img src="./assets/hero-kinetic-v2.svg" width="100%" alt="lynn / utenkkekou — AI、计算机视觉与全栈开发 / AI, vision &amp; creative engineering" />
+  <source media="(max-width: 640px)" srcset="./assets/hero-prism-mobile-v3.svg" />
+  <img src="./assets/hero-prism-v3.svg" width="100%" alt="lynn / utenkkekou — AI、计算机视觉与全栈开发 / AI, vision &amp; creative engineering" />
 </picture>
 
 ## 你好，我是 lynn
@@ -18,14 +18,14 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="./docs/core-nexus-ai.md"><img src="./assets/project-nexus.svg" width="100%" alt="Core Nexus AI · architecture overview" /></a>
+      <a href="./docs/core-nexus-ai.md"><img src="./assets/project-nexus-v3.svg" width="100%" alt="Core Nexus AI · concept illustration" /></a>
       <h3><a href="https://github.com/utenkkekou/core-nexus-ai">Core Nexus AI ↗</a></h3>
       <p>统一模型契约、渠道路由与多模态响应，将鉴权、请求去重、熔断和异步编排组织到推理网关。</p>
       <p><sub>FastAPI · 适配器契约 · 服务治理</sub></p>
       <p><a href="https://github.com/utenkkekou/core-nexus-ai">查看代码</a> · <a href="./docs/core-nexus-ai.md">架构与工程拆解</a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="./docs/vision-pipeline.md"><img src="./assets/project-vision.svg" width="100%" alt="视觉数据与模型工具链 · architecture overview" /></a>
+      <a href="./docs/vision-pipeline.md"><img src="./assets/project-vision-v3.svg" width="100%" alt="视觉数据与模型工具链 · concept illustration" /></a>
       <h3><a href="https://github.com/utenkkekou/PTL-Detect">视觉数据与模型工具链 ↗</a></h3>
       <p>贯通抽帧、预标注、人工复核、训练与误判分析，重点处理场景划分、重复数据和 Core ML 导出契约。</p>
       <p><sub>YOLO · 数据质量 · 错误类型评估</sub></p>
@@ -34,7 +34,7 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="./docs/room-studio.md"><img src="./assets/project-spatial-intro.svg" width="100%" alt="3D Room Studio · concept illustration" /></a>
+      <a href="./docs/room-studio.md"><img src="./assets/project-spatial-v3.svg" width="100%" alt="3D Room Studio · concept illustration" /></a>
       <h3><a href="./docs/room-studio.md">3D Room Studio ↗</a></h3>
       <p>面向装修规划和家具搭配的 3D 设计工具。可以绘制户型、摆放家具、调整材质与尺寸，保存多套方案，直观比较空间效果。</p>
       <p><sub>户型规划 · 家具搭配 · 方案保存</sub></p>
@@ -42,7 +42,7 @@
       <p><sub>个人项目 · 源码未公开</sub></p>
     </td>
     <td width="50%" valign="top">
-      <a href="./docs/assistive-vision.md"><img src="./assets/project-wearable.svg" width="100%" alt="AI 智能眼镜 · concept illustration" /></a>
+      <a href="./docs/assistive-vision.md"><img src="./assets/project-wearable-v3.svg" width="100%" alt="AI 智能眼镜 · concept illustration" /></a>
       <h3><a href="./docs/assistive-vision.md">AI 智能眼镜 ↗</a></h3>
       <p>面向视障用户的视觉辅助项目，通过语音获取周围场景的信息，并提供路线与交互提示，探索更易使用的日常辅助体验。</p>
       <p><sub>场景信息 · 语音交互 · 无障碍体验</sub></p>

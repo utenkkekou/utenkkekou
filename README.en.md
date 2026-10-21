@@ -1,8 +1,8 @@
 <p align="center"><a href="./README.md">中文</a> &nbsp; / &nbsp; <strong>English</strong> &nbsp; / &nbsp; <a href="./README.ja.md">日本語</a></p>
 
 <picture>
-  <source media="(max-width: 640px)" srcset="./assets/hero-kinetic-mobile-v2.svg" />
-  <img src="./assets/hero-kinetic-v2.svg" width="100%" alt="lynn / utenkkekou — AI, vision &amp; creative engineering" />
+  <source media="(max-width: 640px)" srcset="./assets/hero-prism-mobile-v3.svg" />
+  <img src="./assets/hero-prism-v3.svg" width="100%" alt="lynn / utenkkekou — AI, vision &amp; creative engineering" />
 </picture>
 
 ## Hi, I'm lynn
@@ -18,14 +18,14 @@ Selected work across AI infrastructure, vision data, spatial design and assistiv
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="./docs/core-nexus-ai.md"><img src="./assets/project-nexus.svg" width="100%" alt="Core Nexus AI · architecture overview" /></a>
+      <a href="./docs/core-nexus-ai.md"><img src="./assets/project-nexus-v3.svg" width="100%" alt="Core Nexus AI · concept illustration" /></a>
       <h3><a href="https://github.com/utenkkekou/core-nexus-ai">Core Nexus AI ↗</a></h3>
       <p>A multimodal gateway combining model contracts, channel routing and streaming with authentication, deduplication, circuit breaking and asynchronous orchestration.</p>
       <p><sub>FastAPI · Adapter contracts · Service governance</sub></p>
       <p><a href="https://github.com/utenkkekou/core-nexus-ai">Source code</a> · <a href="./docs/core-nexus-ai.md">Architecture notes (中文)</a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="./docs/vision-pipeline.md"><img src="./assets/project-vision.svg" width="100%" alt="Vision Data &amp; Model Pipeline · architecture overview" /></a>
+      <a href="./docs/vision-pipeline.md"><img src="./assets/project-vision-v3.svg" width="100%" alt="Vision Data &amp; Model Pipeline · concept illustration" /></a>
       <h3><a href="https://github.com/utenkkekou/PTL-Detect">Vision Data &amp; Model Pipeline ↗</a></h3>
       <p>From frame extraction and review to training and error analysis, with scene-level splits, duplicate checks and explicit Core ML export contracts.</p>
       <p><sub>YOLO · Data quality · Error analysis</sub></p>
@@ -34,7 +34,7 @@ Selected work across AI infrastructure, vision data, spatial design and assistiv
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="./docs/room-studio.md"><img src="./assets/project-spatial-intro.svg" width="100%" alt="3D Room Studio · concept illustration" /></a>
+      <a href="./docs/room-studio.md"><img src="./assets/project-spatial-v3.svg" width="100%" alt="3D Room Studio · concept illustration" /></a>
       <h3><a href="./docs/room-studio.md">3D Room Studio ↗</a></h3>
       <p>A 3D tool for room planning and furniture styling. Draw floor plans, place furniture, adjust materials and dimensions, and save different layouts to compare spatial ideas.</p>
       <p><sub>Room planning · Furniture styling · Saved designs</sub></p>
@@ -42,7 +42,7 @@ Selected work across AI infrastructure, vision data, spatial design and assistiv
       <p><sub>Personal project · Source private</sub></p>
     </td>
     <td width="50%" valign="top">
-      <a href="./docs/assistive-vision.md"><img src="./assets/project-wearable.svg" width="100%" alt="AI Smart Glasses · concept illustration" /></a>
+      <a href="./docs/assistive-vision.md"><img src="./assets/project-wearable-v3.svg" width="100%" alt="AI Smart Glasses · concept illustration" /></a>
       <h3><a href="./docs/assistive-vision.md">AI Smart Glasses ↗</a></h3>
       <p>A visual-assistance project for people with visual impairments, exploring spoken scene information, route prompts and accessible everyday interactions.</p>
       <p><sub>Scene information · Voice interaction · Accessibility</sub></p>

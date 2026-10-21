@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="280" viewBox="0 0 560 280" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">3D ROOM STUDIO — concept illustration</title><desc id="desc">An isometric room with a lavender sofa, a rug, a low table, window light and a plant. Concept illustration, not a product screenshot.</desc>
+<defs>
+  <linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111627"/><stop offset=".55" stop-color="#090c17"/><stop offset="1" stop-color="#11142a"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#213d50" stop-opacity=".94"/><stop offset=".55" stop-color="#162133" stop-opacity=".92"/><stop offset="1" stop-color="#27203d" stop-opacity=".9"/></linearGradient>
+  <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#bdcce3"/><stop offset=".3" stop-color="#55647b"/><stop offset=".7" stop-color="#273047"/><stop offset="1" stop-color="#6e7b96"/></linearGradient>
+  <linearGradient id="lens" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#416579" stop-opacity=".8"/><stop offset=".48" stop-color="#132738" stop-opacity=".8"/><stop offset="1" stop-color="#382f62" stop-opacity=".9"/></linearGradient>
+  <linearGradient id="light" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#79e7ef"/><stop offset=".6" stop-color="#a7c5ff"/><stop offset="1" stop-color="#a99cff"/></linearGradient>
+  <linearGradient id="floor" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#223143"/><stop offset="1" stop-color="#141b2a"/></linearGradient>
+  <linearGradient id="wall" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#26344a"/><stop offset="1" stop-color="#1b2439"/></linearGradient>
+  <linearGradient id="sofa" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b1a8dc"/><stop offset="1" stop-color="#756d9f"/></linearGradient>
+  <radialGradient id="ambient"><stop stop-color="#5050b0" stop-opacity=".25"/><stop offset="1" stop-color="#5050b0" stop-opacity="0"/></radialGradient>
+  <filter id="blur" x="-60%" y="-100%" width="220%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+  <filter id="smallglow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3"/></filter>
+</defs>
+<rect x="0" y="0" width="560" height="280" rx="14" fill="url(#back)" />
+<ellipse cx="328" cy="145" rx="235" ry="142" fill="url(#ambient)"/>
+<rect x="0.5" y="0.5" width="559" height="279" rx="13.5" fill="none" stroke="#253047" stroke-opacity=".7"/>
+<rect x="24" y="24" width="3" height="13" rx="1" fill="#a99cff" />
+<text x="38" y="35" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#dbe7f6" letter-spacing="1.6" font-weight="600">3D ROOM STUDIO</text>
+<text x="510" y="35" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#a99cff" letter-spacing="1.4">03</text>
+<ellipse cx="284" cy="218" rx="173" ry="15" fill="#02040b" opacity=".85" filter="url(#blur)"/>
+  <path d="M110 155L270 77L433 151V176L276 237L110 169Z" fill="#111b2d" stroke="#35405b" stroke-width="1"/>
+  <path d="M110 155L270 77L433 151L276 219Z" fill="url(#floor)" stroke="#647086" stroke-width="1.1"/>
+  <path d="M110 155V85L270 20V77Z" fill="url(#wall)" stroke="#52667c" stroke-width="1"/>
+  <path d="M270 20L433 92V151L270 77Z" fill="#18243a" stroke="#35475f" stroke-width="1"/>
+  <path d="M112 85L270 21L431 92" fill="none" stroke="#8a9caf" stroke-width="1.2"/>
+  <path d="M142 87L227 52V113L142 151Z" fill="#12293a" stroke="#68869e" stroke-width="1"/>
+  <path d="M149 91L220 62V108L149 139Z" fill="#274b5d" stroke="none" />
+  <path d="M154 92L179 82V126L154 137Z" fill="#70b6c4" stroke="none" opacity=".32"/>
+  <path d="M184 76V122 M149 111L220 82" fill="none" stroke="#7eb1bf" stroke-width="1.5"/>
+  <path d="M150 151L229 115L319 160L241 199Z" fill="#476073" stroke="none" opacity=".32"/>
+  <path d="M178 156L270 112L365 154L275 195Z" fill="#4d536e" stroke="#69718d" stroke-width=".8"/>
+  <path d="M183 156L270 116L359 154L275 191Z" fill="#363d56" stroke="none" />
+  <path d="M285 99L346 126V144L284 118Z" fill="#5e587e" stroke="none" />
+  <path d="M285 85L346 111V128L285 101Z" fill="url(#sofa)" stroke="#b3abd4" stroke-width=".8"/>
+  <path d="M270 106L285 99L347 127L331 135Z" fill="#c4b7eb" stroke="none" />
+  <path d="M270 106V122L331 150V135Z" fill="#847aa7" stroke="none" />
+  <path d="M331 135L347 127V143L331 150Z" fill="#635d8b" stroke="none" />
+  <path d="M269 101L278 97L288 101V119L279 123L269 119Z" fill="#9286b6" stroke="#b3a3d7" stroke-width=".6"/>
+  <path d="M330 127L339 123L349 127V144L340 148L330 144Z" fill="#9286b6" stroke="#b3a3d7" stroke-width=".6"/>
+  <path d="M291 106L312 116 M314 116L334 125" fill="none" stroke="#73688f" stroke-width=".8"/>
+  <path d="M231 155L269 137L304 152L266 170Z" fill="#91a3af" stroke="#c5d6df" stroke-width=".8"/>
+  <path d="M231 155V161L266 176L304 158V152L266 170Z" fill="#536b7c" stroke="none" />
+  <path d="M239 161V173 M294 160V171" fill="none" stroke="#8ca2ad" stroke-width="3"/>
+  <path d="M260 146L269 142L277 146L268 150Z" fill="#c7eeed" stroke="none" />
+  <path d="M386 143L404 151L395 169L381 162Z" fill="#637887" stroke="none" />
+  <path d="M388 148V110" fill="none" stroke="#7eaaad" stroke-width="1.8"/>
+  <path d="M388 125C370 128 369 106 378 104C388 106 390 117 388 125Z" fill="#639e9c" stroke="none" />
+  <path d="M388 136C405 134 412 116 402 113C392 115 389 127 388 136Z" fill="#8bc2ae" stroke="none" />
+  <path d="M388 115C377 106 380 93 389 92C397 98 394 110 388 115Z" fill="#a0cfb8" stroke="none" />
+  <rect x="57" y="188" width="94" height="25" rx="6" fill="#17243a" stroke="#344c65"/>
+  <text x="70" y="204" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#b2c8dd" letter-spacing="1">YOUR SPACE</text>
+<path d="M24 240H536" fill="none" stroke="#263147" />
+<text x="25" y="261" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#97a8bf" letter-spacing="1.4">PLAN YOUR SPACE. MAKE IT YOURS.</text>
+<path d="M519 254H529V264 M519 264L529 254" fill="none" stroke="#a99cff" stroke-width="1.3"/>
+</svg>

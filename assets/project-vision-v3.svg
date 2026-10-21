@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="280" viewBox="0 0 560 280" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">PTL-DETECT — concept illustration</title><desc id="desc">A stylized signal viewed through a floating annotation frame, with colored label chips beside it. Concept illustration, not a product screenshot.</desc>
+<defs>
+  <linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111627"/><stop offset=".55" stop-color="#090c17"/><stop offset="1" stop-color="#11142a"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#213d50" stop-opacity=".94"/><stop offset=".55" stop-color="#162133" stop-opacity=".92"/><stop offset="1" stop-color="#27203d" stop-opacity=".9"/></linearGradient>
+  <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#bdcce3"/><stop offset=".3" stop-color="#55647b"/><stop offset=".7" stop-color="#273047"/><stop offset="1" stop-color="#6e7b96"/></linearGradient>
+  <linearGradient id="lens" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#416579" stop-opacity=".8"/><stop offset=".48" stop-color="#132738" stop-opacity=".8"/><stop offset="1" stop-color="#382f62" stop-opacity=".9"/></linearGradient>
+  <linearGradient id="light" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#79e7ef"/><stop offset=".6" stop-color="#a7c5ff"/><stop offset="1" stop-color="#a99cff"/></linearGradient>
+  <linearGradient id="floor" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#223143"/><stop offset="1" stop-color="#141b2a"/></linearGradient>
+  <linearGradient id="wall" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#26344a"/><stop offset="1" stop-color="#1b2439"/></linearGradient>
+  <linearGradient id="sofa" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b1a8dc"/><stop offset="1" stop-color="#756d9f"/></linearGradient>
+  <radialGradient id="ambient"><stop stop-color="#5050b0" stop-opacity=".25"/><stop offset="1" stop-color="#5050b0" stop-opacity="0"/></radialGradient>
+  <filter id="blur" x="-60%" y="-100%" width="220%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+  <filter id="smallglow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3"/></filter>
+</defs>
+<rect x="0" y="0" width="560" height="280" rx="14" fill="url(#back)" />
+<ellipse cx="328" cy="145" rx="235" ry="142" fill="url(#ambient)"/>
+<rect x="0.5" y="0.5" width="559" height="279" rx="13.5" fill="none" stroke="#253047" stroke-opacity=".7"/>
+<rect x="24" y="24" width="3" height="13" rx="1" fill="#a99cff" />
+<text x="38" y="35" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#dbe7f6" letter-spacing="1.6" font-weight="600">PTL-DETECT</text>
+<text x="510" y="35" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#a99cff" letter-spacing="1.4">02</text>
+<ellipse cx="278" cy="214" rx="173" ry="15" fill="#02040b" opacity=".8" filter="url(#blur)"/>
+  <rect x="84" y="63" width="289" height="151" rx="12" fill="#101a2a" stroke="#2c405a"/>
+  <path d="M85 178L155 119L217 158L269 113L372 175V204Q372 213 363 213H94Q85 213 85 204Z" fill="#182b3a" stroke="none" />
+  <path d="M85 191L160 153L230 182L290 149L372 191V204Q372 213 363 213H94Q85 213 85 204Z" fill="#203645" stroke="none" />
+  <path d="M85 199H372 M131 200L184 159 M325 200L277 163" fill="none" stroke="#3f5669" stroke-width="1" opacity=".6"/>
+  <rect x="228" y="97" width="14" height="117" rx="2" fill="#263c50" />
+  <rect x="204" y="77" width="62" height="110" rx="17" fill="#080f1b" stroke="#63778e" stroke-width="2"/>
+  <rect x="211" y="84" width="48" height="96" rx="12" fill="#172637" stroke="#233c50"/>
+  <circle cx="235" cy="108" r="15" fill="#3e2938" />
+  <circle cx="235" cy="108" r="10" fill="#ed708c" opacity=".32"/>
+  <circle cx="235" cy="153" r="18" fill="#79e7cf" opacity=".5" filter="url(#smallglow)"/>
+  <circle cx="235" cy="153" r="13" fill="#9bf1d8" />
+  <path d="M191 98V65H218 M251 65H280V98 M191 167V199H218 M251 199H280V167" fill="none" stroke="#79e7ef" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M192 131H279" fill="none" stroke="#9eeff4" stroke-width="1.2" opacity=".5"/>
+  <path d="M280 85H326L349 73H399 M280 179H328L349 191H399" fill="none" stroke="#5c7798" stroke-width="1"/>
+  <rect x="387" y="58" width="122" height="35" rx="8" fill="#142736" stroke="#4e929e"/>
+  <circle cx="404" cy="75" r="3" fill="#79e7ef" /><text x="416" y="79" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#c2f3f4" letter-spacing="1">ANNOTATE</text>
+  <rect x="387" y="107" width="122" height="35" rx="8" fill="#20233c" stroke="#5a6287"/>
+  <path d="M400 125L405 130L413 120" fill="none" stroke="#a99cff" stroke-width="1.5"/>
+  <text x="425" y="129" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#d7d0f4" letter-spacing="1">REVIEW</text>
+  <rect x="387" y="173" width="122" height="35" rx="8" fill="#142736" stroke="#37586d"/>
+  <path d="M399 193V186 M405 193V182 M411 193V179" fill="none" stroke="#79e7ef" stroke-width="2" stroke-linecap="round"/>
+  <text x="423" y="195" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#afccd8" letter-spacing="1">IMPROVE</text>
+  <rect x="97" y="76" width="57" height="18" rx="4" fill="#193245" stroke="#294d60"/>
+  <text x="106" y="88" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#a6d5e3" letter-spacing=".8">VISION</text>
+<path d="M24 240H536" fill="none" stroke="#263147" />
+<text x="25" y="261" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#97a8bf" letter-spacing="1.4">SEE THE SIGNAL. REFINE THE DATA.</text>
+<path d="M519 254H529V264 M519 264L529 254" fill="none" stroke="#a99cff" stroke-width="1.3"/>
+</svg>

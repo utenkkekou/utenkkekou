@@ -2,7 +2,7 @@
 
 [← 返回主页](../README.md)
 
-![视觉信息与语音交互的功能示意](../assets/project-wearable.svg)
+![视觉信息与语音交互的功能示意](../assets/project-wearable-v3.svg)
 
 ## 有什么用
 

@@ -2,7 +2,7 @@
 
 [← 返回主页](../README.md)
 
-![户型、家具与方案保存的功能示意](../assets/project-spatial-intro.svg)
+![户型、家具与方案保存的功能示意](../assets/project-spatial-v3.svg)
 
 ## 有什么用
 
