@@ -77,7 +77,7 @@ function header(mobile=false) {
     body+=label(38,544,'AI SYSTEMS / WEB / MOBILE',C.white,17);
     body+=label(38,575,'CODE · PERCEPTION · INTERACTION',C.muted,13);
   } else {
-    body+=sculpture(931,237,1.02);
+    body+=sculpture(950,221,.85);
     body+=label(1130,40,'01',C.cyan,13);
     body+=text(44,238,'lynn',184,C.white,'font-weight="700" letter-spacing="-12"');
     body+=rect(387,211,23,23,3,C.lime);
@@ -92,7 +92,7 @@ function header(mobile=false) {
 }
 function card(index,kind,title,draw,color=C.cyan) {
   const body=rect(0,0,560,248,12,C.bg)+rect(0,0,560,248,12,'url(#dots)')+
-    line('M20 48H540',C.line)+label(22,30,`0${index} / ${kind}`,color,12)+label(508,30,'↗',C.muted,17)+
+    line('M20 48H540',C.line)+label(22,30,`0${index} / ${kind}`,color,12)+(index===4?label(498,30,'WIP',C.amber,11):label(508,30,'↗',C.muted,17))+
     `<g>${draw}</g>`+label(22,229,title,C.muted,10);
   return svg(560,248,`${kind} project illustration`,title,body);
 }

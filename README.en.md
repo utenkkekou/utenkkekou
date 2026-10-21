@@ -16,13 +16,13 @@ My projects span multimodal inference, vision models, business systems, mobile a
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="./assets/project-nexus.svg" width="100%" alt="Core Nexus AI · Multimodal inference gateway concept" />
+      <a href="https://github.com/utenkkekou/core-nexus-ai"><img src="./assets/project-nexus.svg" width="100%" alt="Core Nexus AI · Multimodal inference gateway concept" /></a>
       <h3><a href="https://github.com/utenkkekou/core-nexus-ai">Core Nexus AI ↗</a></h3>
       <p>A multimodal inference gateway with model adapters, streaming, authentication and task orchestration, plus an offline demo.</p>
       <p><sub>Python · FastAPI · Multimodal AI</sub></p>
     </td>
     <td width="50%" valign="top">
-      <img src="./assets/project-vision.svg" width="100%" alt="PTL-Detect · Pedestrian traffic-light detection concept" />
+      <a href="https://github.com/utenkkekou/PTL-Detect"><img src="./assets/project-vision.svg" width="100%" alt="PTL-Detect · Pedestrian traffic-light detection concept" /></a>
       <h3><a href="https://github.com/utenkkekou/PTL-Detect">PTL-Detect ↗</a></h3>
       <p>A pedestrian traffic-light toolkit for image annotation, data review, YOLO training and error analysis.</p>
       <p><sub>Python · YOLO · Computer vision</sub></p>
@@ -30,7 +30,7 @@ My projects span multimodal inference, vision models, business systems, mobile a
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img src="./assets/project-annotation.svg" width="100%" alt="Quick Annotation · Image pre-annotation and human review concept" />
+      <a href="https://github.com/utenkkekou/Quick-Annotation"><img src="./assets/project-annotation.svg" width="100%" alt="Quick Annotation · Image pre-annotation and human review concept" /></a>
       <h3><a href="https://github.com/utenkkekou/Quick-Annotation">Quick Annotation ↗</a></h3>
       <p>Traffic-light image pre-annotation and human review, connecting a vision API to a browser-based review workflow.</p>
       <p><sub>Python · Vision models · Annotation</sub></p>

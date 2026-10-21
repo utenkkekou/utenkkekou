@@ -10,7 +10,7 @@
   @keyframes orbit { to { transform: rotate(360deg); } }
   @keyframes breathe { 0%,100% { opacity: .4; } 50% { opacity: .85; } }
   @media (prefers-reduced-motion: reduce) { .orbit,.breathe { animation: none; } }
-</style><rect x="0" y="0" width="1200" height="480" rx="18" fill="#080e15" /><rect x="0" y="0" width="1200" height="480" rx="18" fill="url(#dots)" /><rect x="32" y="32" width="7" height="7" rx="1" fill="#d4ff78" /><text x="51" y="40" fill="#8fa8b8" font-family="Consolas, Monaco, monospace" font-size="13" letter-spacing="1.6">UTENKKEKOU / ENGINEERING</text><g transform="translate(931 237) scale(1.02)">
+</style><rect x="0" y="0" width="1200" height="480" rx="18" fill="#080e15" /><rect x="0" y="0" width="1200" height="480" rx="18" fill="url(#dots)" /><rect x="32" y="32" width="7" height="7" rx="1" fill="#d4ff78" /><text x="51" y="40" fill="#8fa8b8" font-family="Consolas, Monaco, monospace" font-size="13" letter-spacing="1.6">UTENKKEKOU / ENGINEERING</text><g transform="translate(950 221) scale(0.85)">
     <circle r="245" fill="url(#halo)"/>
     <path d="M-225 0H225 M0-217V217" fill="none" stroke="#263b48" stroke-dasharray="2 8"/>
     <circle r="195" stroke="#263b48" stroke-width="1"/>
