@@ -1,8 +1,8 @@
 <p align="center"><a href="./README.md">中文</a> &nbsp; / &nbsp; <strong>English</strong> &nbsp; / &nbsp; <a href="./README.ja.md">日本語</a></p>
 
 <picture>
-  <source media="(max-width: 640px)" srcset="./assets/header-mobile.svg" />
-  <img src="./assets/hero-orbit.svg" width="100%" alt="lynn / utenkkekou — AI, vision &amp; creative engineering" />
+  <source media="(max-width: 640px)" srcset="./assets/hero-kinetic-mobile-v2.svg" />
+  <img src="./assets/hero-kinetic-v2.svg" width="100%" alt="lynn / utenkkekou — AI, vision &amp; creative engineering" />
 </picture>
 
 ## Hi, I'm lynn
@@ -13,54 +13,88 @@ My projects span multimodal inference, vision models, business systems, mobile a
 
 ### 01 / Selected work
 
+Selected work across AI infrastructure, vision data, spatial software and on-device systems, with a closer look at architecture and engineering decisions.
+
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/utenkkekou/core-nexus-ai"><img src="./assets/project-nexus.svg" width="100%" alt="Core Nexus AI · Multimodal inference gateway concept" /></a>
+      <a href="./docs/core-nexus-ai.md"><img src="./assets/project-nexus.svg" width="100%" alt="Core Nexus AI · architecture overview" /></a>
       <h3><a href="https://github.com/utenkkekou/core-nexus-ai">Core Nexus AI ↗</a></h3>
-      <p>A multimodal inference gateway with model adapters, streaming, authentication and task orchestration, plus an offline demo.</p>
-      <p><sub>Python · FastAPI · Multimodal AI</sub></p>
+      <p>A multimodal gateway combining model contracts, channel routing and streaming with authentication, deduplication, circuit breaking and asynchronous orchestration.</p>
+      <p><sub>FastAPI · Adapter contracts · Service governance</sub></p>
+      <p><a href="https://github.com/utenkkekou/core-nexus-ai">Source code</a> · <a href="./docs/core-nexus-ai.md">Architecture notes (中文)</a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/utenkkekou/PTL-Detect"><img src="./assets/project-vision.svg" width="100%" alt="PTL-Detect · Pedestrian traffic-light detection concept" /></a>
-      <h3><a href="https://github.com/utenkkekou/PTL-Detect">PTL-Detect ↗</a></h3>
-      <p>A pedestrian traffic-light toolkit for image annotation, data review, YOLO training and error analysis.</p>
-      <p><sub>Python · YOLO · Computer vision</sub></p>
+      <a href="./docs/vision-pipeline.md"><img src="./assets/project-vision.svg" width="100%" alt="Vision Data &amp; Model Pipeline · architecture overview" /></a>
+      <h3><a href="https://github.com/utenkkekou/PTL-Detect">Vision Data &amp; Model Pipeline ↗</a></h3>
+      <p>From frame extraction and review to training and error analysis, with scene-level splits, duplicate checks and explicit Core ML export contracts.</p>
+      <p><sub>YOLO · Data quality · Error analysis</sub></p>
+      <p><a href="https://github.com/utenkkekou/PTL-Detect">Source code</a> · <a href="./docs/vision-pipeline.md">Architecture notes (中文)</a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/utenkkekou/Quick-Annotation"><img src="./assets/project-annotation.svg" width="100%" alt="Quick Annotation · Image pre-annotation and human review concept" /></a>
-      <h3><a href="https://github.com/utenkkekou/Quick-Annotation">Quick Annotation ↗</a></h3>
-      <p>Traffic-light image pre-annotation and human review, connecting a vision API to a browser-based review workflow.</p>
-      <p><sub>Python · Vision models · Annotation</sub></p>
+      <a href="./docs/room-studio.md"><img src="./assets/project-spatial-v2.svg" width="100%" alt="3D Room Studio · architecture overview" /></a>
+      <h3><a href="./docs/room-studio.md">3D Room Studio ↗</a></h3>
+      <p>A floor-plan and 3D editor with shared-wall topology, real door/window openings and furniture assets, plus portable backups, version conflicts and draft recovery.</p>
+      <p><sub>Vue · Three.js · Geometry · IndexedDB</sub></p>
+      <p><a href="./docs/room-studio.md">Architecture notes (中文)</a></p>
+      <p><sub>Case study · Source private</sub></p>
     </td>
     <td width="50%" valign="top">
-      <img src="./assets/project-wearable.svg" width="100%" alt="AI Smart Glasses · Visual and voice assistance concept, in development" />
-      <h3>AI Smart Glasses</h3>
-      <p><strong>In development</strong> · An assistive system for people with visual impairments, connecting visual perception, voice interaction and mobile apps.</p>
-      <p><sub>Computer vision · Voice · Accessibility</sub></p>
+      <a href="./docs/assistive-vision.md"><img src="./assets/project-wearable.svg" width="100%" alt="AI Smart Glasses · architecture overview" /></a>
+      <h3><a href="./docs/assistive-vision.md">AI Smart Glasses ↗</a></h3>
+      <p>An on-device visual assistant for people with visual impairments. Domain services, a shared microphone state machine and speech arbitration coordinate perception and accessible interaction.</p>
+      <p><sub>SwiftUI · Core ML · Audio state machines</sub></p>
+      <p><a href="./docs/assistive-vision.md">Architecture notes (中文)</a></p>
+      <p><sub>In development · Source private</sub></p>
     </td>
   </tr>
 </table>
 
-### 02 / What I build
+### 02 / Tech stack
 
-**AI systems & visual perception**
+**Languages**
 
-Unified inference APIs, model integration, text/image/speech/video processing, streaming responses, tool calling and workflow orchestration. Vision work includes image pre-annotation and human review, YOLO training and evaluation, detection and segmentation, ONNX inference and on-device Core ML integration.
+<p>
+  <img src="./assets/stack/python.svg" width="96" height="104" alt="Python" />
+  <img src="./assets/stack/typescript.svg" width="96" height="104" alt="TypeScript" />
+  <img src="./assets/stack/javascript.svg" width="96" height="104" alt="JavaScript" />
+  <img src="./assets/stack/go.svg" width="96" height="104" alt="Go" />
+  <img src="./assets/stack/dart.svg" width="96" height="104" alt="Dart" />
+  <img src="./assets/stack/swift.svg" width="96" height="104" alt="Swift" />
+</p>
 
-**Full-stack applications & delivery**
+**AI & vision**
 
-Web dashboards, API services, role-based access, tenant isolation, and file and media asset management; structured data modeling, CSV/Excel import and cleaning, business reports, and document upload and processing. Delivery work covers Docker deployment, database migrations, asynchronous jobs, WebSocket communication, monitoring metrics and automated tests.
+<p>
+  <img src="./assets/stack/pytorch.svg" width="96" height="104" alt="PyTorch" />
+  <img src="./assets/stack/huggingface.svg" width="96" height="104" alt="Hugging Face" />
+  <img src="./assets/stack/opencv.svg" width="96" height="104" alt="OpenCV" />
+  <img src="./assets/stack/onnx.svg" width="96" height="104" alt="ONNX" />
+</p>
 
-**Mobile devices & spatial interaction**
+**Web & mobile**
 
-Flutter, React Native and native iOS apps with camera, location and BLE integration, H.264 video and real-time audio communication. I also build Three.js scenes, floor-plan and spatial visualizations, data dashboards, visual workflows and content-creation interfaces.
+<p>
+  <img src="./assets/stack/react.svg" width="96" height="104" alt="React" />
+  <img src="./assets/stack/nextjs.svg" width="96" height="104" alt="Next.js" />
+  <img src="./assets/stack/vue.svg" width="96" height="104" alt="Vue.js" />
+  <img src="./assets/stack/tailwindcss.svg" width="96" height="104" alt="Tailwind CSS" />
+  <img src="./assets/stack/threejs.svg" width="96" height="104" alt="Three.js" />
+  <img src="./assets/stack/flutter.svg" width="96" height="104" alt="Flutter" />
+</p>
 
-### 03 / Tech stack
+**Backend & engineering**
 
-`Python` `TypeScript` `PyTorch` `YOLO` `FastAPI` `React` `Three.js` `Flutter` `Docker`
+<p>
+  <img src="./assets/stack/fastapi.svg" width="96" height="104" alt="FastAPI" />
+  <img src="./assets/stack/nodejs.svg" width="96" height="104" alt="Node.js" />
+  <img src="./assets/stack/postgresql.svg" width="96" height="104" alt="PostgreSQL" />
+  <img src="./assets/stack/redis.svg" width="96" height="104" alt="Redis" />
+  <img src="./assets/stack/docker.svg" width="96" height="104" alt="Docker" />
+  <img src="./assets/stack/git.svg" width="96" height="104" alt="Git" />
+</p>
 
 <details>
 <summary>Explore the full stack and project tools</summary>
@@ -76,6 +110,20 @@ Flutter, React Native and native iOS apps with camera, location and BLE integrat
 | Additional project tools | FFmpeg · pandas · openpyxl · Hono · Cloudflare Workers · pytest · Playwright |
 
 </details>
+
+### 03 / What I build
+
+**AI systems & visual perception**
+
+Unified inference APIs, model integration, text/image/speech/video processing, streaming responses, tool calling and workflow orchestration. Vision work includes image pre-annotation and human review, YOLO training and evaluation, detection and segmentation, ONNX inference and on-device Core ML integration.
+
+**Full-stack applications & delivery**
+
+Web dashboards, API services, role-based access, tenant isolation, and file and media asset management; structured data modeling, CSV/Excel import and cleaning, business reports, and document upload and processing. Delivery work covers Docker deployment, database migrations, asynchronous jobs, WebSocket communication, monitoring metrics and automated tests.
+
+**Mobile devices & spatial interaction**
+
+Flutter, React Native and native iOS apps with camera, location and BLE integration, H.264 video and real-time audio communication. I also build Three.js scenes, floor-plan and spatial visualizations, data dashboards, visual workflows and content-creation interfaces.
 
 ### 04 / Currently exploring
 

@@ -1,8 +1,8 @@
 <p align="center"><strong>中文</strong> &nbsp; / &nbsp; <a href="./README.en.md">English</a> &nbsp; / &nbsp; <a href="./README.ja.md">日本語</a></p>
 
 <picture>
-  <source media="(max-width: 640px)" srcset="./assets/header-mobile.svg" />
-  <img src="./assets/hero-orbit.svg" width="100%" alt="lynn / utenkkekou — AI、计算机视觉与全栈开发 / AI, vision &amp; creative engineering" />
+  <source media="(max-width: 640px)" srcset="./assets/hero-kinetic-mobile-v2.svg" />
+  <img src="./assets/hero-kinetic-v2.svg" width="100%" alt="lynn / utenkkekou — AI、计算机视觉与全栈开发 / AI, vision &amp; creative engineering" />
 </picture>
 
 ## 你好，我是 lynn
@@ -13,54 +13,88 @@
 
 ### 01 / 精选项目
 
+围绕 AI 基础设施、视觉数据、空间设计与端侧系统，记录从功能实现到工程取舍的实践。
+
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/utenkkekou/core-nexus-ai"><img src="./assets/project-nexus.svg" width="100%" alt="Core Nexus AI · 多模态推理网关概念图" /></a>
+      <a href="./docs/core-nexus-ai.md"><img src="./assets/project-nexus.svg" width="100%" alt="Core Nexus AI · architecture overview" /></a>
       <h3><a href="https://github.com/utenkkekou/core-nexus-ai">Core Nexus AI ↗</a></h3>
-      <p>多模态 AI 推理网关，统一模型适配、流式响应、鉴权与任务编排，提供离线演示。</p>
-      <p><sub>Python · FastAPI · 多模态 AI</sub></p>
+      <p>统一模型契约、渠道路由与多模态响应，将鉴权、请求去重、熔断和异步编排组织到推理网关。</p>
+      <p><sub>FastAPI · 适配器契约 · 服务治理</sub></p>
+      <p><a href="https://github.com/utenkkekou/core-nexus-ai">查看代码</a> · <a href="./docs/core-nexus-ai.md">架构与工程拆解</a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/utenkkekou/PTL-Detect"><img src="./assets/project-vision.svg" width="100%" alt="PTL-Detect · 行人红绿灯视觉检测概念图" /></a>
-      <h3><a href="https://github.com/utenkkekou/PTL-Detect">PTL-Detect ↗</a></h3>
-      <p>行人红绿灯视觉工具链，覆盖图片标注、数据复核、YOLO 训练与误判分析。</p>
-      <p><sub>Python · YOLO · 计算机视觉</sub></p>
+      <a href="./docs/vision-pipeline.md"><img src="./assets/project-vision.svg" width="100%" alt="视觉数据与模型工具链 · architecture overview" /></a>
+      <h3><a href="https://github.com/utenkkekou/PTL-Detect">视觉数据与模型工具链 ↗</a></h3>
+      <p>贯通抽帧、预标注、人工复核、训练与误判分析，重点处理场景划分、重复数据和 Core ML 导出契约。</p>
+      <p><sub>YOLO · 数据质量 · 错误类型评估</sub></p>
+      <p><a href="https://github.com/utenkkekou/PTL-Detect">查看代码</a> · <a href="./docs/vision-pipeline.md">架构与工程拆解</a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/utenkkekou/Quick-Annotation"><img src="./assets/project-annotation.svg" width="100%" alt="Quick Annotation · 图片预标注与人工审核概念图" /></a>
-      <h3><a href="https://github.com/utenkkekou/Quick-Annotation">Quick Annotation ↗</a></h3>
-      <p>交通信号灯图片预标注与人工审核工具，连接视觉 API，在浏览器中逐张审核。</p>
-      <p><sub>Python · 视觉模型 · 数据标注</sub></p>
+      <a href="./docs/room-studio.md"><img src="./assets/project-spatial-v2.svg" width="100%" alt="3D Room Studio · architecture overview" /></a>
+      <h3><a href="./docs/room-studio.md">3D Room Studio ↗</a></h3>
+      <p>连接二维户型与 3D 编辑，处理多房间共享墙、门窗开洞和家具资产；支持方案备份、版本冲突与草稿恢复。</p>
+      <p><sub>Vue · Three.js · 几何拓扑 · IndexedDB</sub></p>
+      <p><a href="./docs/room-studio.md">架构与工程拆解</a></p>
+      <p><sub>项目案例 · 源码未公开</sub></p>
     </td>
     <td width="50%" valign="top">
-      <img src="./assets/project-wearable.svg" width="100%" alt="AI 智能眼镜 · 视觉与语音辅助概念图，项目开发中" />
-      <h3>AI 智能眼镜</h3>
-      <p><strong>开发中</strong> · 面向视障用户的辅助系统，连接视觉感知、语音交互与移动端。</p>
-      <p><sub>计算机视觉 · 语音 · 无障碍</sub></p>
+      <a href="./docs/assistive-vision.md"><img src="./assets/project-wearable.svg" width="100%" alt="AI 智能眼镜 · architecture overview" /></a>
+      <h3><a href="./docs/assistive-vision.md">AI 智能眼镜 ↗</a></h3>
+      <p>面向视障用户的端侧视觉助手，通过领域服务、统一麦克风状态机和语音仲裁，协调感知、对话与无障碍交互。</p>
+      <p><sub>SwiftUI · Core ML · 音频状态机 · 无障碍</sub></p>
+      <p><a href="./docs/assistive-vision.md">架构与工程拆解</a></p>
+      <p><sub>开发中 · 源码未公开</sub></p>
     </td>
   </tr>
 </table>
 
-### 02 / 构建方向
+### 02 / 技术栈
 
-**AI 系统与视觉感知**
+**编程语言**
 
-统一推理 API、多模型接入、文本／图像／语音／视频处理，以及流式响应、工具调用和工作流编排。视觉实践覆盖图片预标注与人工审核、YOLO 训练与评估、目标检测与分割、ONNX 推理及 Core ML 端侧集成。
+<p>
+  <img src="./assets/stack/python.svg" width="96" height="104" alt="Python" />
+  <img src="./assets/stack/typescript.svg" width="96" height="104" alt="TypeScript" />
+  <img src="./assets/stack/javascript.svg" width="96" height="104" alt="JavaScript" />
+  <img src="./assets/stack/go.svg" width="96" height="104" alt="Go" />
+  <img src="./assets/stack/dart.svg" width="96" height="104" alt="Dart" />
+  <img src="./assets/stack/swift.svg" width="96" height="104" alt="Swift" />
+</p>
 
-**全栈应用与工程交付**
+**AI 与视觉**
 
-Web 管理后台、API 服务、角色权限、租户隔离、文件与媒体资产管理；结构化数据建模、CSV／Excel 导入清洗、业务报表和文档上传与处理。配套 Docker 部署、数据库迁移、异步任务、WebSocket 通信、监控指标与自动化测试。
+<p>
+  <img src="./assets/stack/pytorch.svg" width="96" height="104" alt="PyTorch" />
+  <img src="./assets/stack/huggingface.svg" width="96" height="104" alt="Hugging Face" />
+  <img src="./assets/stack/opencv.svg" width="96" height="104" alt="OpenCV" />
+  <img src="./assets/stack/onnx.svg" width="96" height="104" alt="ONNX" />
+</p>
 
-**移动设备与空间交互**
+**Web 与移动端**
 
-Flutter、React Native 与原生 iOS 开发，接入相机、定位、BLE、H.264 视频及实时音频通信。也在构建 Three.js 场景、户型与空间可视化、图表大屏、可视化工作流和内容创作界面。
+<p>
+  <img src="./assets/stack/react.svg" width="96" height="104" alt="React" />
+  <img src="./assets/stack/nextjs.svg" width="96" height="104" alt="Next.js" />
+  <img src="./assets/stack/vue.svg" width="96" height="104" alt="Vue.js" />
+  <img src="./assets/stack/tailwindcss.svg" width="96" height="104" alt="Tailwind CSS" />
+  <img src="./assets/stack/threejs.svg" width="96" height="104" alt="Three.js" />
+  <img src="./assets/stack/flutter.svg" width="96" height="104" alt="Flutter" />
+</p>
 
-### 03 / 技术栈
+**后端与工程**
 
-`Python` `TypeScript` `PyTorch` `YOLO` `FastAPI` `React` `Three.js` `Flutter` `Docker`
+<p>
+  <img src="./assets/stack/fastapi.svg" width="96" height="104" alt="FastAPI" />
+  <img src="./assets/stack/nodejs.svg" width="96" height="104" alt="Node.js" />
+  <img src="./assets/stack/postgresql.svg" width="96" height="104" alt="PostgreSQL" />
+  <img src="./assets/stack/redis.svg" width="96" height="104" alt="Redis" />
+  <img src="./assets/stack/docker.svg" width="96" height="104" alt="Docker" />
+  <img src="./assets/stack/git.svg" width="96" height="104" alt="Git" />
+</p>
 
 <details>
 <summary>展开完整技术栈与项目工具</summary>
@@ -76,6 +110,20 @@ Flutter、React Native 与原生 iOS 开发，接入相机、定位、BLE、H.26
 | 其他项目工具 | FFmpeg · pandas · openpyxl · Hono · Cloudflare Workers · pytest · Playwright |
 
 </details>
+
+### 03 / 构建方向
+
+**AI 系统与视觉感知**
+
+统一推理 API、多模型接入、文本／图像／语音／视频处理，以及流式响应、工具调用和工作流编排。视觉实践覆盖图片预标注与人工审核、YOLO 训练与评估、目标检测与分割、ONNX 推理及 Core ML 端侧集成。
+
+**全栈应用与工程交付**
+
+Web 管理后台、API 服务、角色权限、租户隔离、文件与媒体资产管理；结构化数据建模、CSV／Excel 导入清洗、业务报表和文档上传与处理。配套 Docker 部署、数据库迁移、异步任务、WebSocket 通信、监控指标与自动化测试。
+
+**移动设备与空间交互**
+
+Flutter、React Native 与原生 iOS 开发，接入相机、定位、BLE、H.264 视频及实时音频通信。也在构建 Three.js 场景、户型与空间可视化、图表大屏、可视化工作流和内容创作界面。
 
 ### 04 / 正在探索
 

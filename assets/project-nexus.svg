@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="560" height="248" viewBox="0 0 560 248" fill="none" role="img" aria-labelledby="title desc"><title id="title">MULTIMODAL AI project illustration</title><desc id="desc">MODEL ADAPTERS / STREAMING / ORCHESTRATION</desc><defs>
-  <radialGradient id="halo"><stop stop-color="#23665d" stop-opacity=".52"/><stop offset="1" stop-color="#080e15" stop-opacity="0"/></radialGradient>
+  <radialGradient id="halo"><stop stop-color="#3bbeb1" stop-opacity=".45"/><stop offset=".5" stop-color="#185d68" stop-opacity=".35"/><stop offset="1" stop-color="#080e15" stop-opacity="0"/></radialGradient>
   <linearGradient id="accent"><stop stop-color="#7de8df"/><stop offset="1" stop-color="#d4ff78"/></linearGradient>
   <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#5f8e9b" opacity=".22"/></pattern>
   <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5"/></filter>

@@ -1,8 +1,8 @@
 <p align="center"><a href="./README.md">中文</a> &nbsp; / &nbsp; <a href="./README.en.md">English</a> &nbsp; / &nbsp; <strong>日本語</strong></p>
 
 <picture>
-  <source media="(max-width: 640px)" srcset="./assets/header-mobile.svg" />
-  <img src="./assets/hero-orbit.svg" width="100%" alt="lynn / utenkkekou — AI・画像認識・アプリ開発 / AI, vision &amp; creative engineering" />
+  <source media="(max-width: 640px)" srcset="./assets/hero-kinetic-mobile-v2.svg" />
+  <img src="./assets/hero-kinetic-v2.svg" width="100%" alt="lynn / utenkkekou — AI・画像認識・アプリ開発 / AI, vision &amp; creative engineering" />
 </picture>
 
 ## こんにちは、lynn です
@@ -13,54 +13,88 @@
 
 ### 01 / 主なプロジェクト
 
+AI 基盤、視覚データ、空間設計、端末内システムの開発を、アーキテクチャと設計判断から紹介します。
+
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/utenkkekou/core-nexus-ai"><img src="./assets/project-nexus.svg" width="100%" alt="Core Nexus AI · マルチモーダル推論ゲートウェイの概念図" /></a>
+      <a href="./docs/core-nexus-ai.md"><img src="./assets/project-nexus.svg" width="100%" alt="Core Nexus AI · architecture overview" /></a>
       <h3><a href="https://github.com/utenkkekou/core-nexus-ai">Core Nexus AI ↗</a></h3>
-      <p>モデル接続、ストリーミング、認証、タスク処理を統合するマルチモーダル推論ゲートウェイ。オフラインデモを同梱。</p>
-      <p><sub>Python · FastAPI · マルチモーダル AI</sub></p>
+      <p>モデル契約とチャネルルーティングを統一するマルチモーダル推論ゲートウェイ。認証、重複リクエスト制御、サーキットブレーカー、非同期処理を組み込みます。</p>
+      <p><sub>FastAPI · アダプター契約 · サービス制御</sub></p>
+      <p><a href="https://github.com/utenkkekou/core-nexus-ai">ソースコード</a> · <a href="./docs/core-nexus-ai.md">設計・実装の詳細（中文）</a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/utenkkekou/PTL-Detect"><img src="./assets/project-vision.svg" width="100%" alt="PTL-Detect · 歩行者用信号機の検出を表す概念図" /></a>
-      <h3><a href="https://github.com/utenkkekou/PTL-Detect">PTL-Detect ↗</a></h3>
-      <p>歩行者用信号機の画像アノテーション、データレビュー、YOLO の学習・誤認識分析を支援するツール群。</p>
-      <p><sub>Python · YOLO · 画像認識</sub></p>
+      <a href="./docs/vision-pipeline.md"><img src="./assets/project-vision.svg" width="100%" alt="視覚データ・モデル開発基盤 · architecture overview" /></a>
+      <h3><a href="https://github.com/utenkkekou/PTL-Detect">視覚データ・モデル開発基盤 ↗</a></h3>
+      <p>フレーム抽出、事前ラベル付け、レビュー、学習、誤認識分析を支えるツール群。シーン単位の分割、重複検査、Core ML 出力契約を重視します。</p>
+      <p><sub>YOLO · データ品質 · 誤認識分析</sub></p>
+      <p><a href="https://github.com/utenkkekou/PTL-Detect">ソースコード</a> · <a href="./docs/vision-pipeline.md">設計・実装の詳細（中文）</a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/utenkkekou/Quick-Annotation"><img src="./assets/project-annotation.svg" width="100%" alt="Quick Annotation · 画像の事前アノテーションと人手レビューの概念図" /></a>
-      <h3><a href="https://github.com/utenkkekou/Quick-Annotation">Quick Annotation ↗</a></h3>
-      <p>信号機画像の事前アノテーションと人手レビューを支援。画像認識 API とブラウザ上のレビュー画面を連携します。</p>
-      <p><sub>Python · 画像認識 · アノテーション</sub></p>
+      <a href="./docs/room-studio.md"><img src="./assets/project-spatial-v2.svg" width="100%" alt="3D Room Studio · architecture overview" /></a>
+      <h3><a href="./docs/room-studio.md">3D Room Studio ↗</a></h3>
+      <p>間取りと 3D をつなぐ編集ツール。複数部屋の共有壁、開口部、家具資産に加え、完全バックアップ、バージョン競合、下書き復元を扱います。</p>
+      <p><sub>Vue · Three.js · 幾何構造 · IndexedDB</sub></p>
+      <p><a href="./docs/room-studio.md">設計・実装の詳細（中文）</a></p>
+      <p><sub>開発事例 · ソース非公開</sub></p>
     </td>
     <td width="50%" valign="top">
-      <img src="./assets/project-wearable.svg" width="100%" alt="AI スマートグラス · 視覚・音声支援の概念図、開発中" />
-      <h3>AI スマートグラス</h3>
-      <p><strong>開発中</strong> · 視覚障害のある方を支援するシステム。視覚認識、音声対話、モバイルアプリを連携します。</p>
-      <p><sub>画像認識 · 音声 · アクセシビリティ</sub></p>
+      <a href="./docs/assistive-vision.md"><img src="./assets/project-wearable.svg" width="100%" alt="AI スマートグラス · architecture overview" /></a>
+      <h3><a href="./docs/assistive-vision.md">AI スマートグラス ↗</a></h3>
+      <p>視覚障害のある方を支援する端末内視覚アシスタント。領域サービス、統一マイク状態機械、音声優先度制御により、認識と対話を調整します。</p>
+      <p><sub>SwiftUI · Core ML · 音声状態管理</sub></p>
+      <p><a href="./docs/assistive-vision.md">設計・実装の詳細（中文）</a></p>
+      <p><sub>開発中 · ソース非公開</sub></p>
     </td>
   </tr>
 </table>
 
-### 02 / 取り組んでいる分野
+### 02 / 技術スタック
 
-**AI システムと視覚認識**
+**プログラミング言語**
 
-推論 API の統合、複数モデルの連携、テキスト・画像・音声・動画処理、ストリーミング応答、ツール呼び出し、ワークフロー構築。画像の事前アノテーションと人手レビュー、YOLO の学習・評価、物体検出・セグメンテーション、ONNX 推論、Core ML の端末内統合にも取り組んでいます。
+<p>
+  <img src="./assets/stack/python.svg" width="96" height="104" alt="Python" />
+  <img src="./assets/stack/typescript.svg" width="96" height="104" alt="TypeScript" />
+  <img src="./assets/stack/javascript.svg" width="96" height="104" alt="JavaScript" />
+  <img src="./assets/stack/go.svg" width="96" height="104" alt="Go" />
+  <img src="./assets/stack/dart.svg" width="96" height="104" alt="Dart" />
+  <img src="./assets/stack/swift.svg" width="96" height="104" alt="Swift" />
+</p>
 
-**フルスタックアプリと開発・運用基盤**
+**AI・画像認識**
 
-Web 管理画面、API サービス、ロールに基づく権限制御、テナント分離、ファイル・メディア資産の管理。構造化データのモデリング、CSV・Excel の取り込みと整形、業務レポート生成、ドキュメントのアップロードと処理。Docker によるデプロイ、DB マイグレーション、非同期ジョブ、WebSocket 通信、監視メトリクス、自動テストまで扱います。
+<p>
+  <img src="./assets/stack/pytorch.svg" width="96" height="104" alt="PyTorch" />
+  <img src="./assets/stack/huggingface.svg" width="96" height="104" alt="Hugging Face" />
+  <img src="./assets/stack/opencv.svg" width="96" height="104" alt="OpenCV" />
+  <img src="./assets/stack/onnx.svg" width="96" height="104" alt="ONNX" />
+</p>
 
-**モバイルデバイスと空間インタラクション**
+**Web・モバイル**
 
-Flutter、React Native、ネイティブ iOS 開発。カメラ・位置情報・BLE の連携、H.264 映像とリアルタイム音声の通信。Three.js のシーン、間取り・空間の可視化、ダッシュボード、ビジュアルワークフロー、コンテンツ制作画面も開発しています。
+<p>
+  <img src="./assets/stack/react.svg" width="96" height="104" alt="React" />
+  <img src="./assets/stack/nextjs.svg" width="96" height="104" alt="Next.js" />
+  <img src="./assets/stack/vue.svg" width="96" height="104" alt="Vue.js" />
+  <img src="./assets/stack/tailwindcss.svg" width="96" height="104" alt="Tailwind CSS" />
+  <img src="./assets/stack/threejs.svg" width="96" height="104" alt="Three.js" />
+  <img src="./assets/stack/flutter.svg" width="96" height="104" alt="Flutter" />
+</p>
 
-### 03 / 技術スタック
+**バックエンド・開発基盤**
 
-`Python` `TypeScript` `PyTorch` `YOLO` `FastAPI` `React` `Three.js` `Flutter` `Docker`
+<p>
+  <img src="./assets/stack/fastapi.svg" width="96" height="104" alt="FastAPI" />
+  <img src="./assets/stack/nodejs.svg" width="96" height="104" alt="Node.js" />
+  <img src="./assets/stack/postgresql.svg" width="96" height="104" alt="PostgreSQL" />
+  <img src="./assets/stack/redis.svg" width="96" height="104" alt="Redis" />
+  <img src="./assets/stack/docker.svg" width="96" height="104" alt="Docker" />
+  <img src="./assets/stack/git.svg" width="96" height="104" alt="Git" />
+</p>
 
 <details>
 <summary>技術スタックと使用ツールをすべて見る</summary>
@@ -76,6 +110,20 @@ Flutter、React Native、ネイティブ iOS 開発。カメラ・位置情報�
 | その他の使用ツール | FFmpeg · pandas · openpyxl · Hono · Cloudflare Workers · pytest · Playwright |
 
 </details>
+
+### 03 / 取り組んでいる分野
+
+**AI システムと視覚認識**
+
+推論 API の統合、複数モデルの連携、テキスト・画像・音声・動画処理、ストリーミング応答、ツール呼び出し、ワークフロー構築。画像の事前アノテーションと人手レビュー、YOLO の学習・評価、物体検出・セグメンテーション、ONNX 推論、Core ML の端末内統合にも取り組んでいます。
+
+**フルスタックアプリと開発・運用基盤**
+
+Web 管理画面、API サービス、ロールに基づく権限制御、テナント分離、ファイル・メディア資産の管理。構造化データのモデリング、CSV・Excel の取り込みと整形、業務レポート生成、ドキュメントのアップロードと処理。Docker によるデプロイ、DB マイグレーション、非同期ジョブ、WebSocket 通信、監視メトリクス、自動テストまで扱います。
+
+**モバイルデバイスと空間インタラクション**
+
+Flutter、React Native、ネイティブ iOS 開発。カメラ・位置情報・BLE の連携、H.264 映像とリアルタイム音声の通信。Three.js のシーン、間取り・空間の可視化、ダッシュボード、ビジュアルワークフロー、コンテンツ制作画面も開発しています。
 
 ### 04 / 現在探っていること
 
