@@ -13,7 +13,7 @@
 
 ### 01 / 精选项目
 
-围绕 AI 基础设施、视觉数据、空间设计与端侧系统，记录从功能实现到工程取舍的实践。
+围绕 AI 基础设施、视觉数据、空间设计与辅助工具展开实践。公开项目提供源码与工程说明，其他项目介绍用途和使用场景。
 
 <table>
   <tr>
@@ -34,23 +34,28 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="./docs/room-studio.md"><img src="./assets/project-spatial-v2.svg" width="100%" alt="3D Room Studio · architecture overview" /></a>
+      <a href="./docs/room-studio.md"><img src="./assets/project-spatial-intro.svg" width="100%" alt="3D Room Studio · concept illustration" /></a>
       <h3><a href="./docs/room-studio.md">3D Room Studio ↗</a></h3>
-      <p>连接二维户型与 3D 编辑，处理多房间共享墙、门窗开洞和家具资产；支持方案备份、版本冲突与草稿恢复。</p>
-      <p><sub>Vue · Three.js · 几何拓扑 · IndexedDB</sub></p>
-      <p><a href="./docs/room-studio.md">架构与工程拆解</a></p>
-      <p><sub>项目案例 · 源码未公开</sub></p>
+      <p>面向装修规划和家具搭配的 3D 设计工具。可以绘制户型、摆放家具、调整材质与尺寸，保存多套方案，直观比较空间效果。</p>
+      <p><sub>户型规划 · 家具搭配 · 方案保存</sub></p>
+      <p><a href="./docs/room-studio.md">项目用途与功能</a></p>
+      <p><sub>个人项目 · 源码未公开</sub></p>
     </td>
     <td width="50%" valign="top">
-      <a href="./docs/assistive-vision.md"><img src="./assets/project-wearable.svg" width="100%" alt="AI 智能眼镜 · architecture overview" /></a>
+      <a href="./docs/assistive-vision.md"><img src="./assets/project-wearable.svg" width="100%" alt="AI 智能眼镜 · concept illustration" /></a>
       <h3><a href="./docs/assistive-vision.md">AI 智能眼镜 ↗</a></h3>
-      <p>面向视障用户的端侧视觉助手，通过领域服务、统一麦克风状态机和语音仲裁，协调感知、对话与无障碍交互。</p>
-      <p><sub>SwiftUI · Core ML · 音频状态机 · 无障碍</sub></p>
-      <p><a href="./docs/assistive-vision.md">架构与工程拆解</a></p>
+      <p>面向视障用户的视觉辅助项目，通过语音获取周围场景的信息，并提供路线与交互提示，探索更易使用的日常辅助体验。</p>
+      <p><sub>场景信息 · 语音交互 · 无障碍体验</sub></p>
+      <p><a href="./docs/assistive-vision.md">项目用途与功能</a></p>
       <p><sub>开发中 · 源码未公开</sub></p>
     </td>
   </tr>
 </table>
+
+**其他项目 · 简介**
+
+- **商品检索与采购辅助工作台** — 通过图片或描述寻找家具与材料，比较商品规格、估算采购成本并保留查阅记录，用于选品和采购前的信息整理。独立研究原型，源码未公开。
+- **AI 短剧创作工作台** — 把剧本、角色设定、分镜与镜头顺序放在同一工作区，辅助短剧的前期构思与内容规划。创作流程原型，源码未公开。
 
 ### 02 / 技术栈
 

@@ -142,7 +142,7 @@ const wearable = card(4,'ASSISTIVE TECHNOLOGY','IN DEVELOPMENT / VISION / VOICE 
   [13,25,39,55,34,65,48,26,40,18,31].map((v,i)=>line(`M${385+i*11} ${153-v/2}V${153+v/2}`,i%3===0?C.lime:C.cyan,'stroke-width="3" stroke-linecap="round"')).join('')+
   label(386,89,'VOICE',C.cyan,11)+label(385,203,'BUILDING',C.amber,10),C.amber);
 
-const spatial = card(3,'SPATIAL DESIGN SYSTEM','SHARED WALLS / ASSET VALIDATION / DESIGN RECOVERY',
+const spatial = card(3,'ROOM DESIGN STUDIO','FLOOR PLANS / FURNITURE / SAVED DESIGNS',
   `<path d="M52 141L188 67L335 145L199 216Z" fill="#152c32" stroke="${C.cyan}"/>
    <path d="M52 141V87L188 18V67Z" fill="#1b3042" stroke="${C.blue}" transform="translate(0 35)"/>
    <path d="M188 53L335 130V180L188 102Z" fill="#11242e" stroke="${C.blue}"/>`+
@@ -159,6 +159,6 @@ await Promise.all([
   ['hero-kinetic-v2.svg',header()],['hero-kinetic-mobile-v2.svg',header(true)],
   ['project-nexus.svg',nexus],['project-vision.svg',vision],
   ['project-annotation.svg',annotation],['project-wearable.svg',wearable],
-  ['project-spatial-v2.svg',spatial],
+  ['project-spatial-intro.svg',spatial],
 ].map(([name,contents])=>writeFile(`${output}/${name}`,contents)));
 console.log('Built 7 self-contained SVG assets.');

@@ -13,7 +13,7 @@ My projects span multimodal inference, vision models, business systems, mobile a
 
 ### 01 / Selected work
 
-Selected work across AI infrastructure, vision data, spatial software and on-device systems, with a closer look at architecture and engineering decisions.
+Selected work across AI infrastructure, vision data, spatial design and assistive tools. Public projects include source and engineering notes; other projects focus on their purpose and use cases.
 
 <table>
   <tr>
@@ -34,23 +34,28 @@ Selected work across AI infrastructure, vision data, spatial software and on-dev
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="./docs/room-studio.md"><img src="./assets/project-spatial-v2.svg" width="100%" alt="3D Room Studio · architecture overview" /></a>
+      <a href="./docs/room-studio.md"><img src="./assets/project-spatial-intro.svg" width="100%" alt="3D Room Studio · concept illustration" /></a>
       <h3><a href="./docs/room-studio.md">3D Room Studio ↗</a></h3>
-      <p>A floor-plan and 3D editor with shared-wall topology, real door/window openings and furniture assets, plus portable backups, version conflicts and draft recovery.</p>
-      <p><sub>Vue · Three.js · Geometry · IndexedDB</sub></p>
-      <p><a href="./docs/room-studio.md">Architecture notes (中文)</a></p>
-      <p><sub>Case study · Source private</sub></p>
+      <p>A 3D tool for room planning and furniture styling. Draw floor plans, place furniture, adjust materials and dimensions, and save different layouts to compare spatial ideas.</p>
+      <p><sub>Room planning · Furniture styling · Saved designs</sub></p>
+      <p><a href="./docs/room-studio.md">Purpose &amp; features (中文)</a></p>
+      <p><sub>Personal project · Source private</sub></p>
     </td>
     <td width="50%" valign="top">
-      <a href="./docs/assistive-vision.md"><img src="./assets/project-wearable.svg" width="100%" alt="AI Smart Glasses · architecture overview" /></a>
+      <a href="./docs/assistive-vision.md"><img src="./assets/project-wearable.svg" width="100%" alt="AI Smart Glasses · concept illustration" /></a>
       <h3><a href="./docs/assistive-vision.md">AI Smart Glasses ↗</a></h3>
-      <p>An on-device visual assistant for people with visual impairments. Domain services, a shared microphone state machine and speech arbitration coordinate perception and accessible interaction.</p>
-      <p><sub>SwiftUI · Core ML · Audio state machines</sub></p>
-      <p><a href="./docs/assistive-vision.md">Architecture notes (中文)</a></p>
+      <p>A visual-assistance project for people with visual impairments, exploring spoken scene information, route prompts and accessible everyday interactions.</p>
+      <p><sub>Scene information · Voice interaction · Accessibility</sub></p>
+      <p><a href="./docs/assistive-vision.md">Purpose &amp; features (中文)</a></p>
       <p><sub>In development · Source private</sub></p>
     </td>
   </tr>
 </table>
+
+**More projects · Brief introductions**
+
+- **Product Search & Procurement Assistant** — Find furniture and materials from an image or description, compare specifications, estimate purchase costs and keep research records for sourcing decisions. An independent research prototype; source is private.
+- **AI Short-Drama Workspace** — Bring scripts, character ideas, storyboards and shot order into one workspace to support early creative planning. A creative workflow prototype; source is private.
 
 ### 02 / Tech stack
 

@@ -13,7 +13,7 @@
 
 ### 01 / 主なプロジェクト
 
-AI 基盤、視覚データ、空間設計、端末内システムの開発を、アーキテクチャと設計判断から紹介します。
+AI 基盤、視覚データ、空間設計、補助ツールに取り組んでいます。公開プロジェクトにはソースと設計の説明を、その他のプロジェクトには用途と利用場面を紹介します。
 
 <table>
   <tr>
@@ -34,23 +34,28 @@ AI 基盤、視覚データ、空間設計、端末内システムの開発を�
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="./docs/room-studio.md"><img src="./assets/project-spatial-v2.svg" width="100%" alt="3D Room Studio · architecture overview" /></a>
+      <a href="./docs/room-studio.md"><img src="./assets/project-spatial-intro.svg" width="100%" alt="3D Room Studio · concept illustration" /></a>
       <h3><a href="./docs/room-studio.md">3D Room Studio ↗</a></h3>
-      <p>間取りと 3D をつなぐ編集ツール。複数部屋の共有壁、開口部、家具資産に加え、完全バックアップ、バージョン競合、下書き復元を扱います。</p>
-      <p><sub>Vue · Three.js · 幾何構造 · IndexedDB</sub></p>
-      <p><a href="./docs/room-studio.md">設計・実装の詳細（中文）</a></p>
-      <p><sub>開発事例 · ソース非公開</sub></p>
+      <p>住まいの計画と家具のコーディネートを支える 3D ツール。間取りの作成、家具の配置、素材や寸法の調整、複数案の保存で空間のイメージを比較できます。</p>
+      <p><sub>間取り計画 · 家具配置 · プラン保存</sub></p>
+      <p><a href="./docs/room-studio.md">用途・機能紹介（中文）</a></p>
+      <p><sub>個人プロジェクト · ソース非公開</sub></p>
     </td>
     <td width="50%" valign="top">
-      <a href="./docs/assistive-vision.md"><img src="./assets/project-wearable.svg" width="100%" alt="AI スマートグラス · architecture overview" /></a>
+      <a href="./docs/assistive-vision.md"><img src="./assets/project-wearable.svg" width="100%" alt="AI スマートグラス · concept illustration" /></a>
       <h3><a href="./docs/assistive-vision.md">AI スマートグラス ↗</a></h3>
-      <p>視覚障害のある方を支援する端末内視覚アシスタント。領域サービス、統一マイク状態機械、音声優先度制御により、認識と対話を調整します。</p>
-      <p><sub>SwiftUI · Core ML · 音声状態管理</sub></p>
-      <p><a href="./docs/assistive-vision.md">設計・実装の詳細（中文）</a></p>
+      <p>視覚障害のある方に向けた視覚補助プロジェクト。音声による周囲の情報や経路の案内を通じて、使いやすい日常の補助体験を探っています。</p>
+      <p><sub>周囲の情報 · 音声操作 · アクセシビリティ</sub></p>
+      <p><a href="./docs/assistive-vision.md">用途・機能紹介（中文）</a></p>
       <p><sub>開発中 · ソース非公開</sub></p>
     </td>
   </tr>
 </table>
+
+**その他のプロジェクト · 紹介**
+
+- **商品検索・調達支援ワークスペース** — 画像や説明から家具・素材を探し、仕様の比較、購入費用の見積もり、調査記録の保存を支援します。商品選定に向けた個人研究のプロトタイプで、ソースは非公開です。
+- **AI ショートドラマ制作ワークスペース** — 脚本、キャラクター、絵コンテ、ショットの順序を一つの作業空間にまとめ、企画段階の構想を支援します。制作フローのプロトタイプで、ソースは非公開です。
 
 ### 02 / 技術スタック
 
