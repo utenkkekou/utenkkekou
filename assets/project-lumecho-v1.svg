@@ -15,7 +15,6 @@
 <rect x="0.5" y="0.5" width="559" height="279" rx="13.5" fill="none" stroke="#253047" stroke-opacity=".7"/>
 <rect x="24" y="24" width="3" height="13" rx="1" fill="#a99cff" />
 <text x="38" y="35" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#dbe7f6" letter-spacing="1.6" font-weight="600">LUMECHO</text>
-<text x="510" y="35" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#a99cff" letter-spacing="1.4">08</text>
 <ellipse cx="285" cy="218" rx="158" ry="15" fill="#02040b" opacity=".8" filter="url(#blur)"/>
   <path d="M119 76Q120.26 81.74 126 83Q120.26 84.26 119 90Q117.74 84.26 112 83Q117.74 81.74 119 76Z" fill="#99c9e8" stroke="none" /><path d="M428 101Q429.44 107.56 436 109Q429.44 110.44 428 117Q426.56 110.44 420 109Q426.56 107.56 428 101Z" fill="#a99cff" stroke="none" /><path d="M454 169Q454.9 173.1 459 174Q454.9 174.9 454 179Q453.1 174.9 449 174Q453.1 173.1 454 169Z" fill="#79e7ef" stroke="none" />
   <circle cx="149" cy="133" r="1.5" fill="#91a8d3" /><circle cx="399" cy="66" r="1.5" fill="#ada8d2" /><circle cx="412" cy="193" r="1.5" fill="#81c1cb" />

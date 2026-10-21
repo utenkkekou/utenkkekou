@@ -15,7 +15,6 @@
 <rect x="0.5" y="0.5" width="559" height="279" rx="13.5" fill="none" stroke="#253047" stroke-opacity=".7"/>
 <rect x="24" y="24" width="3" height="13" rx="1" fill="#79e7ef" />
 <text x="38" y="35" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#dbe7f6" letter-spacing="1.6" font-weight="600">AI FRONT-DESK</text>
-<text x="510" y="35" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#79e7ef" letter-spacing="1.4">07</text>
 <ellipse cx="282" cy="215" rx="187" ry="16" fill="#02040b" opacity=".8" filter="url(#blur)"/>
   <rect x="70" y="62" width="357" height="154" rx="12" fill="#131d30" stroke="#4e6681" stroke-width="1.2"/>
   <path d="M71 86H426" fill="none" stroke="#35445d" />

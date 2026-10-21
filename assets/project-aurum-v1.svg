@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="280" viewBox="0 0 560 280" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">AURUM — concept illustration</title><desc id="desc">A warm gold album cover and a sculpted waveform float above a small playback strip, suggesting musical ideas, listening and organizing creative works. Original concept illustration, not a product screenshot.</desc>
+<defs>
+  <linearGradient id="back" x2="1" y2="1"><stop stop-color="#111627"/><stop offset=".55" stop-color="#090c17"/><stop offset="1" stop-color="#11142a"/></linearGradient>
+  <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#243d50" stop-opacity=".94"/><stop offset=".55" stop-color="#192338" stop-opacity=".96"/><stop offset="1" stop-color="#2e2546" stop-opacity=".9"/></linearGradient>
+  <linearGradient id="rim" x2="1" y2="1"><stop stop-color="#8ddae3"/><stop offset=".5" stop-color="#7189aa"/><stop offset="1" stop-color="#b2a0d7"/></linearGradient>
+  <linearGradient id="pages" x2="1" y2="1"><stop stop-color="#c4cfdf"/><stop offset=".58" stop-color="#8b9db7"/><stop offset="1" stop-color="#63738e"/></linearGradient>
+  <linearGradient id="pageFold"><stop stop-color="#25344c" stop-opacity="0"/><stop offset=".83" stop-color="#27334b" stop-opacity=".08"/><stop offset="1" stop-color="#172035" stop-opacity=".42"/></linearGradient>
+  <linearGradient id="portrait" x2="1" y2="1"><stop stop-color="#423857"/><stop offset=".5" stop-color="#273149"/><stop offset="1" stop-color="#223e4c"/></linearGradient>
+  <linearGradient id="hair" x2=".7" y2="1"><stop stop-color="#c1afd6"/><stop offset=".52" stop-color="#8d7da9"/><stop offset="1" stop-color="#4c496e"/></linearGradient>
+  <linearGradient id="skin" x2="1" y2="1"><stop stop-color="#e2c6c8"/><stop offset="1" stop-color="#b392a5"/></linearGradient>
+  <linearGradient id="jacket" x2="1" y2="1"><stop stop-color="#354c69"/><stop offset="1" stop-color="#1c2d47"/></linearGradient>
+  <linearGradient id="album" x2="1" y2="1"><stop stop-color="#493743"/><stop offset=".54" stop-color="#29243c"/><stop offset="1" stop-color="#142a3c"/></linearGradient>
+  <linearGradient id="gold" x2="1" y2="1"><stop stop-color="#f4d9aa"/><stop offset=".42" stop-color="#c3a678"/><stop offset="1" stop-color="#856c6e"/></linearGradient>
+  <linearGradient id="wave" gradientUnits="userSpaceOnUse" x1="305" y1="0" x2="445" y2="0"><stop stop-color="#809cb4"/><stop offset=".43" stop-color="#e3c28e"/><stop offset=".72" stop-color="#bc9ab4"/><stop offset="1" stop-color="#8c89b9"/></linearGradient>
+  <radialGradient id="ambient"><stop stop-color="#5050b0" stop-opacity=".25"/><stop offset="1" stop-color="#5050b0" stop-opacity="0"/></radialGradient>
+  <filter id="blur" x="-60%" y="-100%" width="220%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+  <clipPath id="portraitClip"><rect x="194" y="65" width="132" height="157" rx="13"/></clipPath>
+</defs>
+<rect x="0" y="0" width="560" height="280" rx="14" fill="url(#back)" />
+<ellipse cx="328" cy="145" rx="235" ry="142" fill="url(#ambient)"/>
+<rect x="0.5" y="0.5" width="559" height="279" rx="13.5" fill="none" stroke="#253047" stroke-opacity=".7"/>
+<rect x="24" y="24" width="3" height="13" rx="1" fill="#dfbf86" />
+<text x="38" y="35" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#dbe7f6" letter-spacing="1.6" font-weight="600">AURUM</text>
+<ellipse cx="280" cy="217" rx="183" ry="15" fill="#02040b" opacity=".85" filter="url(#blur)"/>
+  <g transform="rotate(7 204 135)">
+    <rect x="124" y="61" width="146" height="151" rx="9" fill="#292b44" stroke="#5d5876"/>
+    <rect x="132" y="69" width="130" height="135" rx="5" fill="#232c42" />
+  </g>
+  <rect x="286" y="88" width="200" height="115" rx="12" fill="url(#glass)" stroke="#625c78" stroke-width="1.1"/>
+  <path d="M300 145H469" fill="none" stroke="#50536b" stroke-width=".8" opacity=".45"/>
+  <path d="M305 139.5V150.5" fill="none" stroke="url(#wave)" stroke-width="3" stroke-linecap="round" opacity=".7"/><path d="M312 136.5V153.5" fill="none" stroke="url(#wave)" stroke-width="3" stroke-linecap="round" opacity="1"/><path d="M319 130V160" fill="none" stroke="url(#wave)" stroke-width="3" stroke-linecap="round" opacity="1"/><path d="M326 121V169" fill="none" stroke="url(#wave)" stroke-width="3" stroke-linecap="round" opacity="1"/><path d="M333 114.5V175.5" fill="none" stroke="url(#wave)" stroke-width="3" stroke-linecap="round" opacity=".7"/><path d="M340 123.5V166.5" fill="none" stroke="url(#wave)" stroke-width="3" stroke-linecap="round" opacity="1"/><path d="M347 133.5V156.5" fill="none" stroke="url(#wave)" stroke-width="3" stroke-linecap="round" opacity="1"/><path d="M354 127V163" fill="none" stroke="url(#wave)" stroke-width="3" stroke-linecap="round" opacity="1"/><path d="M361 110.5V179.5" fill="none" stroke="url(#wave)" stroke-width="3" stroke-linecap="round" opacity=".7"/><path d="M368 103V187" fill="none" stroke="url(#wave)" stroke-width="3" stroke-linecap="round" opacity="1"/><path d="M375 115.5V174.5" fill="none" stroke="url(#wave)" stroke-width="3" stroke-linecap="round" opacity="1"/><path d="M382 126.5V163.5" fill="none" stroke="url(#wave)" stroke-width="3" stroke-linecap="round" opacity="1"/><path d="M389 133V157" fill="none" stroke="url(#wave)" stroke-width="3" stroke-linecap="round" opacity=".7"/><path d="M396 121.5V168.5" fill="none" stroke="url(#wave)" stroke-width="3" stroke-linecap="round" opacity="1"/><path d="M403 113V177" fill="none" stroke="url(#wave)" stroke-width="3" stroke-linecap="round" opacity="1"/><path d="M410 123V167" fill="none" stroke="url(#wave)" stroke-width="3" stroke-linecap="round" opacity="1"/><path d="M417 132.5V157.5" fill="none" stroke="url(#wave)" stroke-width="3" stroke-linecap="round" opacity=".7"/><path d="M424 137.5V152.5" fill="none" stroke="url(#wave)" stroke-width="3" stroke-linecap="round" opacity="1"/><path d="M431 132.5V157.5" fill="none" stroke="url(#wave)" stroke-width="3" stroke-linecap="round" opacity="1"/><path d="M438 126V164" fill="none" stroke="url(#wave)" stroke-width="3" stroke-linecap="round" opacity="1"/><path d="M445 135V155" fill="none" stroke="url(#wave)" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+  <path d="M300 187H470" fill="none" stroke="#3c435b" stroke-width="1"/>
+  <path d="M300 187H401" fill="none" stroke="#bca17d" stroke-width="1.5"/>
+  <circle cx="401" cy="187" r="2" fill="#ead4ac" />
+  <g transform="rotate(-7 179 137)">
+    <rect x="101" y="58" width="152" height="157" rx="10" fill="url(#album)" stroke="#8c7b87" stroke-width="1.2"/>
+    <rect x="110" y="67" width="134" height="139" rx="6" fill="none" stroke="#6e5a65" stroke-opacity=".7"/>
+    <path d="M111 169C139 154 142 136 165 143C184 149 188 110 217 111C228 111 236 100 243 90V188H111Z" fill="#b9966a" stroke="none" opacity=".12"/>
+    <path d="M111 173C142 158 145 137 169 145C189 153 191 115 218 116C227 117 235 108 243 103" fill="none" stroke="#dfbd82" stroke-width="1.2" opacity=".7"/>
+    <path d="M111 181C139 163 149 149 170 155C190 164 202 129 225 132C233 133 238 125 243 120" fill="none" stroke="#ae8c79" stroke-width="1" opacity=".55"/>
+    <path d="M150 139L176 88L204 139H189L176 112L162 139Z" fill="url(#gold)" stroke="none" />
+    <path d="M164 129H189" fill="none" stroke="#ead4ac" stroke-width="1.4"/>
+    <text x="137" y="190" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#dcc6a2" font-weight="500">A U R U M</text>
+    <path d="M217 82Q218 85 221 86Q218 87 217 90Q216 87 213 86Q216 85 217 82Z" fill="#d9bd93" stroke="none" />
+  </g>
+  <rect x="286" y="211" width="124" height="14" rx="7" fill="#1b2437" stroke="#424a64"/>
+  <path d="M299 215V221L304 218Z" fill="#dcc39b" stroke="none" />
+  <path d="M316 218H394" fill="none" stroke="#7f7585" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M457 61Q458 65 462 66Q458 67 457 71Q456 67 452 66Q456 65 457 61Z" fill="#c0aacd" stroke="none" />
+<path d="M24 240H536" fill="none" stroke="#263147" />
+<text x="25" y="261" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#97a8bf" letter-spacing="1.4">FROM A SPARK TO A SOUND.</text>
+<path d="M519 254H529V264 M519 264L529 254" fill="none" stroke="#dfbf86" stroke-width="1.3"/>
+</svg>

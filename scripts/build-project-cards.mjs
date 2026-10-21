@@ -22,7 +22,7 @@ const defs = `<defs>
   <filter id="blur" x="-60%" y="-100%" width="220%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
   <filter id="smallglow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3"/></filter>
 </defs>`;
-function card(index, title, subtitle, description, art, color = cyan) {
+function card(title, subtitle, description, art, color = cyan) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="560" height="280" viewBox="0 0 560 280" fill="none" role="img" aria-labelledby="title desc">
 <title id="title">${title} — concept illustration</title><desc id="desc">${description} Concept illustration, not a product screenshot.</desc>
 ${defs}
@@ -31,7 +31,6 @@ ${rect(0, 0, 560, 280, 14, 'url(#back)')}
 ${rect(.5, .5, 559, 279, 13.5, 'none', 'stroke="#253047" stroke-opacity=".7"')}
 ${rect(24, 24, 3, 13, 1, color)}
 ${text(38, 35, title, 11, '#dbe7f6', 'letter-spacing="1.6" font-weight="600"')}
-${text(510, 35, `0${index}`, 11, color, 'letter-spacing="1.4"')}
 ${art}
 ${path('M24 240H536', 'none', '#263147')}
 ${text(25, 261, subtitle, 10, '#97a8bf', 'letter-spacing="1.4"')}
@@ -39,7 +38,7 @@ ${path('M519 254H529V264 M519 264L529 254', 'none', color, 'stroke-width="1.3"')
 </svg>\n`;
 }
 
-const nexus = card(1, 'CORE NEXUS AI', 'ONE GATEWAY. MANY MODELS.',
+const nexus = card('CORE NEXUS AI', 'ONE GATEWAY. MANY MODELS.',
   'A luminous model core suspended above layered glass platforms with connected input and output cards.',
   `<ellipse cx="289" cy="208" rx="114" ry="17" fill="#02040b" opacity=".8" filter="url(#blur)"/>
   ${path('M155 180L279 117L411 179L287 225Z', '#192035', '#394365', 'stroke-width="1"')}
@@ -66,7 +65,7 @@ const nexus = card(1, 'CORE NEXUS AI', 'ONE GATEWAY. MANY MODELS.',
   ${circle(142, 100, 2, cyan)}${circle(430, 98, 2, violet)}${circle(449, 183, 2, cyan)}
   ${text(46, 206, 'MODELS, CONNECTED.', 8, '#647891', 'letter-spacing="1.2"')}`);
 
-const vision = card(2, 'PTL-DETECT', 'SEE THE SIGNAL. REFINE THE DATA.',
+const vision = card('PTL-DETECT', 'SEE THE SIGNAL. REFINE THE DATA.',
   'A stylized signal viewed through a floating annotation frame, with colored label chips beside it.',
   `<ellipse cx="278" cy="214" rx="173" ry="15" fill="#02040b" opacity=".8" filter="url(#blur)"/>
   ${rect(84, 63, 289, 151, 12, '#101a2a', 'stroke="#2c405a"')}
@@ -94,7 +93,7 @@ const vision = card(2, 'PTL-DETECT', 'SEE THE SIGNAL. REFINE THE DATA.',
   ${rect(97, 76, 57, 18, 4, '#193245', 'stroke="#294d60"')}
   ${text(106, 88, 'VISION', 8, '#a6d5e3', 'letter-spacing=".8"')}`, violet);
 
-const spatial = card(3, '3D ROOM STUDIO', 'PLAN YOUR SPACE. MAKE IT YOURS.',
+const spatial = card('3D ROOM STUDIO', 'PLAN YOUR SPACE. MAKE IT YOURS.',
   'An isometric room with a lavender sofa, a rug, a low table, window light and a plant.',
   `<ellipse cx="284" cy="218" rx="173" ry="15" fill="#02040b" opacity=".85" filter="url(#blur)"/>
   ${path('M110 155L270 77L433 151V176L276 237L110 169Z', '#111b2d', '#35405b', 'stroke-width="1"')}
@@ -129,7 +128,7 @@ const spatial = card(3, '3D ROOM STUDIO', 'PLAN YOUR SPACE. MAKE IT YOURS.',
   ${rect(57, 188, 94, 25, 6, '#17243a', 'stroke="#344c65"')}
   ${text(70, 204, 'YOUR SPACE', 8, '#b2c8dd', 'letter-spacing="1"')}`, violet);
 
-const wearable = card(4, 'ASSISTIVE VISION', 'UNDERSTAND MORE. EXPLORE FREELY.',
+const wearable = card('ASSISTIVE VISION', 'UNDERSTAND MORE. EXPLORE FREELY.',
   'A sculpted pair of smart glasses with translucent blue lenses and a restrained voice waveform.',
   `<ellipse cx="271" cy="206" rx="182" ry="16" fill="#02040b" opacity=".85" filter="url(#blur)"/>
   ${path('M91 124L62 83Q58 77 66 76L110 88L146 119', 'none', 'url(#metal)', 'stroke-width="6" stroke-linecap="round" stroke-linejoin="round"')}

@@ -20,7 +20,7 @@ const defs = `<defs>
   <radialGradient id="ambient"><stop stop-color="#5050b0" stop-opacity=".25"/><stop offset="1" stop-color="#5050b0" stop-opacity="0"/></radialGradient>
   <filter id="blur" x="-60%" y="-100%" width="220%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
 </defs>`;
-function card(index, title, subtitle, description, art, color = cyan) {
+function card(title, subtitle, description, art, color = cyan) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="560" height="280" viewBox="0 0 560 280" fill="none" role="img" aria-labelledby="title desc">
 <title id="title">${title} — concept illustration</title><desc id="desc">${description} Original concept illustration, not a product screenshot.</desc>
 ${defs}
@@ -29,7 +29,6 @@ ${rect(0, 0, 560, 280, 14, 'url(#back)')}
 ${rect(.5, .5, 559, 279, 13.5, 'none', 'stroke="#253047" stroke-opacity=".7"')}
 ${rect(24, 24, 3, 13, 1, color)}
 ${text(38, 35, title, 11, '#dbe7f6', 'letter-spacing="1.6" font-weight="600"')}
-${text(510, 35, `0${index}`, 11, color, 'letter-spacing="1.4"')}
 ${art}
 ${path('M24 240H536', 'none', '#263147')}
 ${text(25, 261, subtitle, 10, '#97a8bf', 'letter-spacing="1.4"')}
@@ -37,7 +36,7 @@ ${path('M519 254H529V264 M519 264L529 254', 'none', color, 'stroke-width="1.3"')
 </svg>\n`;
 }
 
-const footage = card(5, 'FOOTAGE OS', 'FROM FOOTAGE TO FIRST CUT.',
+const footage = card('FOOTAGE OS', 'FROM FOOTAGE TO FIRST CUT.',
   'A local media library, a selected video scene and a layered editing timeline suggest finding clips, arranging a rough cut and preparing an export.',
   `<ellipse cx="286" cy="216" rx="181" ry="15" fill="#02040b" opacity=".8" filter="url(#blur)"/>
   <g transform="rotate(-8 119 123)">
@@ -75,7 +74,7 @@ const calendarCells = Array.from({length: 21}, (_, i) => {
   const x = 335 + (i%7)*18.5, y = 115 + Math.floor(i/7)*25;
   return rect(x, y, 13, 16, 3, i===3||i===11||i===15?'#3d516e':'#26344d');
 }).join('');
-const tradewind = card(6, 'TRADEWIND', 'TURN IDEAS INTO A CONTENT PLAN.',
+const tradewind = card('TRADEWIND', 'TURN IDEAS INTO A CONTENT PLAN.',
   'Brand notes and draft content cards sit beside a publishing calendar, representing research, writing and planning without performance metrics.',
   `<ellipse cx="282" cy="217" rx="185" ry="15" fill="#02040b" opacity=".8" filter="url(#blur)"/>
   <g transform="rotate(-8 157 129)">
@@ -103,7 +102,7 @@ const tradewind = card(6, 'TRADEWIND', 'TURN IDEAS INTO A CONTENT PLAN.',
   ${path('M173 198H223', 'none', '#93c7d6', 'stroke-width="1.1"')}
   ${path('M276 194L282 200L294 188', 'none', cyan, 'stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"')}`, violet);
 
-const frontdesk = card(7, 'AI FRONT-DESK', 'WELCOME VISITORS. START CONVERSATIONS.',
+const frontdesk = card('AI FRONT-DESK', 'WELCOME VISITORS. START CONVERSATIONS.',
   'A company website with a welcoming chat panel and a short contact form suggests answering common questions and collecting visitor enquiries.',
   `<ellipse cx="282" cy="215" rx="187" ry="16" fill="#02040b" opacity=".8" filter="url(#blur)"/>
   ${rect(70, 62, 357, 154, 12, '#131d30', 'stroke="#4e6681" stroke-width="1.2"')}
@@ -131,7 +130,7 @@ const frontdesk = card(7, 'AI FRONT-DESK', 'WELCOME VISITORS. START CONVERSATION
   ${rect(329, 194, 148, 16, 6, '#101d2f', 'stroke="#384e68"')}
   ${path('M340 202H389 M461 198L467 202L461 206', 'none', '#7797b1', 'stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"')}`);
 
-const lumecho = card(8, 'LUMECHO', 'A DAILY MOMENT OF WONDER.',
+const lumecho = card('LUMECHO', 'A DAILY MOMENT OF WONDER.',
   'A luminous mobile screen with celestial motifs, an inspiration card and a small question bubble suggests daily reflection, star culture, card draws and AI conversation.',
   `<ellipse cx="285" cy="218" rx="158" ry="15" fill="#02040b" opacity=".8" filter="url(#blur)"/>
   ${star(119, 83, 7, '#99c9e8')}${star(428, 109, 8, violet)}${star(454, 174, 5, cyan)}
